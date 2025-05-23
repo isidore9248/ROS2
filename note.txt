@@ -1,0 +1,17 @@
+1、 CMakeLists.txt 
+    a. project(my_cpp_pkg)
+        生成的包名,运行时需要填写的名称  ！！！！
+    b. find_package(std_msgs REQUIRED) 中添加需要添加的包名
+        标准包rlcpp、std_msgs或自定义的包均可
+    c. add_executable(my_node src/my_node.cpp)
+        my_node : 生成的可执行文件的名称
+        src/my_node.cpp : 需要依赖的源文件
+    d. install(TARGETS
+        my_node
+        DESTINATION lib/${PROJECT_NAME})
+        把编译好的文件安装到某个目录下
+    
+2、  package.xml 添加依赖
+
+    <build_depend>rclcpp</build_depend>
+    <build_depend>std_msgs</build_depend>

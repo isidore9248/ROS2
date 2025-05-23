@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000837] (topic_cpp) JobQueued: {'identifier': 'topic_cpp', 'dependencies': OrderedDict()}
+[0.000901] (topic_cpp) JobStarted: {'identifier': 'topic_cpp'}
+[0.007835] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'cmake'}
+[0.008627] (topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '/home/ros2/ROS2Folder/topic_ws/src/topic_cpp', '-DCMAKE_INSTALL_PREFIX=/home/ros2/ROS2Folder/topic_ws/install/topic_cpp'], 'cwd': '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/ros2'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2/ROS2Folder'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.020031] (topic_cpp) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.100900] (-) TimerEvent: {}
+[0.110804] (topic_cpp) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.116558] (topic_cpp) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.135476] (topic_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.137124] (topic_cpp) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.141236] (topic_cpp) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.147728] (topic_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.156718] (topic_cpp) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.178905] (topic_cpp) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.179712] (topic_cpp) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.201405] (-) TimerEvent: {}
+[0.250727] (topic_cpp) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.302288] (-) TimerEvent: {}
+[0.334363] (topic_cpp) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.343710] (topic_cpp) StdoutLine: {'line': b'-- Generating done\n'}
+[0.346575] (topic_cpp) StdoutLine: {'line': b'-- Build files have been written to: /home/ros2/ROS2Folder/topic_ws/build/topic_cpp\n'}
+[0.352472] (topic_cpp) CommandEnded: {'returncode': 0}
+[0.352982] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'build'}
+[0.353986] (topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp', '--', '-j16', '-l16'], 'cwd': '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/ros2'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2/ROS2Folder'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.384571] (topic_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topicpublish\x1b[0m\n'}
+[0.392890] (topic_cpp) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/topicpublish.dir/src/topicpublish.cpp.o\x1b[0m\n'}
+[0.402528] (-) TimerEvent: {}
+[0.503010] (-) TimerEvent: {}
+[0.604212] (-) TimerEvent: {}
+[0.704764] (-) TimerEvent: {}
+[0.805341] (-) TimerEvent: {}
+[0.906539] (-) TimerEvent: {}
+[1.008125] (-) TimerEvent: {}
+[1.109695] (-) TimerEvent: {}
+[1.211228] (-) TimerEvent: {}
+[1.311739] (-) TimerEvent: {}
+[1.412280] (-) TimerEvent: {}
+[1.513081] (-) TimerEvent: {}
+[1.614132] (-) TimerEvent: {}
+[1.715187] (-) TimerEvent: {}
+[1.815959] (-) TimerEvent: {}
+[1.917874] (-) TimerEvent: {}
+[2.019997] (-) TimerEvent: {}
+[2.122062] (-) TimerEvent: {}
+[2.222791] (-) TimerEvent: {}
+[2.324819] (-) TimerEvent: {}
+[2.426107] (-) TimerEvent: {}
+[2.526554] (-) TimerEvent: {}
+[2.626981] (-) TimerEvent: {}
+[2.727409] (-) TimerEvent: {}
+[2.827875] (-) TimerEvent: {}
+[2.928369] (-) TimerEvent: {}
+[2.948754] (topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ROS2Folder/topic_ws/src/topic_cpp/src/topicpublish.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kint main(int, char**)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[2.949138] (topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ROS2Folder/topic_ws/src/topic_cpp/src/topicpublish.cpp:5:14:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargc\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.949226] (topic_cpp) StderrLine: {'line': b'    5 | int main(\x1b[01;35m\x1b[Kint argc\x1b[m\x1b[K, char ** argv)\n'}
+[2.949281] (topic_cpp) StderrLine: {'line': b'      |          \x1b[01;35m\x1b[K~~~~^~~~\x1b[m\x1b[K\n'}
+[2.949330] (topic_cpp) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ROS2Folder/topic_ws/src/topic_cpp/src/topicpublish.cpp:5:28:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kargv\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[2.949376] (topic_cpp) StderrLine: {'line': b'    5 | int main(int argc, \x1b[01;35m\x1b[Kchar ** argv\x1b[m\x1b[K)\n'}
+[2.949418] (topic_cpp) StderrLine: {'line': b'      |                    \x1b[01;35m\x1b[K~~~~~~~~^~~~\x1b[m\x1b[K\n'}
+[3.028499] (-) TimerEvent: {}
+[3.128899] (-) TimerEvent: {}
+[3.229322] (-) TimerEvent: {}
+[3.326347] (topic_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topicpublish\x1b[0m\n'}
+[3.329442] (-) TimerEvent: {}
+[3.403342] (topic_cpp) StdoutLine: {'line': b'[100%] Built target topicpublish\n'}
+[3.412381] (topic_cpp) CommandEnded: {'returncode': 0}
+[3.413155] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'install'}
+[3.420599] (topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp'], 'cwd': '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/ros2'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2/ROS2Folder'), ('ROS_PYTHON_VERSION', '3'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.427023] (topic_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[3.427447] (topic_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[3.427691] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/lib/topic_cpp/topicpublish\n'}
+[3.427902] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp\n'}
+[3.428072] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp\n'}
+[3.428300] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh\n'}
+[3.428458] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv\n'}
+[3.428516] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/path.sh\n'}
+[3.428691] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv\n'}
+[3.428752] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.bash\n'}
+[3.428920] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.sh\n'}
+[3.428979] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh\n'}
+[3.429144] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv\n'}
+[3.429201] (topic_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/package.dsv\n'}
+[3.429515] (-) TimerEvent: {}
+[3.436830] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp\n'}
+[3.437194] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake\n'}
+[3.437284] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake\n'}
+[3.437336] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/package.xml\n'}
+[3.439101] (topic_cpp) CommandEnded: {'returncode': 0}
+[3.453440] (topic_cpp) JobEnded: {'identifier': 'topic_cpp', 'rc': 0}
+[3.454363] (-) EventReactorShutdown: {}

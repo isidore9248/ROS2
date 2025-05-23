@@ -7,12 +7,14 @@ SCRIPT_DIR=$(dirname "$(readlink -f "$0")")
 DEFAULT_WS_NAME="ros2_ws"
 DEFAULT_PKG_NAME="my_cpp_pkg"
 DEFAULT_NODE_NAME="my_node"
+DEFAULT_DEPENDENCIES="rclcpp std_msgs"
 
 # 显示默认值
 echo -e "\n默认配置:"
 echo -e "工作空间名称: \033[33m$DEFAULT_WS_NAME\033[0m"
 echo -e "功能包名称: \033[33m$DEFAULT_PKG_NAME\033[0m"
 echo -e "节点名称: \033[33m$DEFAULT_NODE_NAME\033[0m"
+echo -e "依赖项: \033[33m$DEFAULT_DEPENDENCIES\033[0m"
 
 # 获取用户输入
 read -p "请输入工作空间名称 (直接回车使用默认值): " ws_name
@@ -23,6 +25,9 @@ pkg_name=${pkg_name:-$DEFAULT_PKG_NAME}
 
 read -p "请输入节点名称 (直接回车使用默认值): " node_name
 node_name=${node_name:-$DEFAULT_NODE_NAME}
+
+read -p "请输入依赖项 (直接回车使用默认值): " dependencies
+dependencies=${dependencies:-$DEFAULT_DEPENDENCIES}
 
 # 检查ROS2环境
 check_ros2_environment() {
@@ -76,7 +81,7 @@ cd "$SCRIPT_DIR/${ws_name}/src"
 
 # 创建功能包
 echo "创建ROS2功能包..."
-ros2 pkg create --build-type ament_cmake --dependencies rclcpp std_msgs \
+ros2 pkg create --build-type ament_cmake --dependencies ${dependencies} \
     --node-name ${node_name} ${pkg_name}
 
 # 修改package.xml
