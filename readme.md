@@ -33,3 +33,12 @@
     ```bash
     wget http://fishros.com/install -O fishros && . fishros
     ```
+## 自动化脚本文件(autobash/下)
+- ```build_ros2_ws.sh```
+    </br>ros2 的编译脚本,放在ws下,执行可自动编译
+- ```create_ros2_ws.sh```
+    </br>工作空间创建脚本,执行后可在当前目录下创建ws工作空间
+- ```source.sh```
+    </br>刷新环境变量脚本 执行时使用```source```命令执行，不要用```./```的形式
+- ```note.txt```
+    </br>学习笔记

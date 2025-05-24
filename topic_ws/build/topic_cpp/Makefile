@@ -210,6 +210,19 @@ topicpublish/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topicpublish.dir/build.make CMakeFiles/topicpublish.dir/build
 .PHONY : topicpublish/fast
 
+#=============================================================================
+# Target rules for targets named topicsubscribe
+
+# Build rule for target.
+topicsubscribe: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 topicsubscribe
+.PHONY : topicsubscribe
+
+# fast build rule for target.
+topicsubscribe/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topicsubscribe.dir/build.make CMakeFiles/topicsubscribe.dir/build
+.PHONY : topicsubscribe/fast
+
 src/topicpublish.o: src/topicpublish.cpp.o
 .PHONY : src/topicpublish.o
 
@@ -234,6 +247,30 @@ src/topicpublish.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/topicpublish.dir/build.make CMakeFiles/topicpublish.dir/src/topicpublish.cpp.s
 .PHONY : src/topicpublish.cpp.s
 
+src/topicsubscribe.o: src/topicsubscribe.cpp.o
+.PHONY : src/topicsubscribe.o
+
+# target to build an object file
+src/topicsubscribe.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topicsubscribe.dir/build.make CMakeFiles/topicsubscribe.dir/src/topicsubscribe.cpp.o
+.PHONY : src/topicsubscribe.cpp.o
+
+src/topicsubscribe.i: src/topicsubscribe.cpp.i
+.PHONY : src/topicsubscribe.i
+
+# target to preprocess a source file
+src/topicsubscribe.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topicsubscribe.dir/build.make CMakeFiles/topicsubscribe.dir/src/topicsubscribe.cpp.i
+.PHONY : src/topicsubscribe.cpp.i
+
+src/topicsubscribe.s: src/topicsubscribe.cpp.s
+.PHONY : src/topicsubscribe.s
+
+# target to generate assembly for a file
+src/topicsubscribe.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/topicsubscribe.dir/build.make CMakeFiles/topicsubscribe.dir/src/topicsubscribe.cpp.s
+.PHONY : src/topicsubscribe.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -250,9 +287,13 @@ help:
 	@echo "... topic_cpp_uninstall"
 	@echo "... uninstall"
 	@echo "... topicpublish"
+	@echo "... topicsubscribe"
 	@echo "... src/topicpublish.o"
 	@echo "... src/topicpublish.i"
 	@echo "... src/topicpublish.s"
+	@echo "... src/topicsubscribe.o"
+	@echo "... src/topicsubscribe.i"
+	@echo "... src/topicsubscribe.s"
 .PHONY : help
 
 

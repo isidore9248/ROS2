@@ -310,7 +310,7 @@ message(STATUS "Execute custom install script")
 
 # begin of custom install code
 
-# install("TARGETS" "topicpublish" "DESTINATION" "lib/topic_cpp")
+# install("TARGETS" "topicpublish" "topicsubscribe" "DESTINATION" "lib/topic_cpp")
 include("/home/ros2/ROS2Folder/topic_ws/build/topic_cpp/ament_cmake_symlink_install_targets_0_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
 # install(FILES "/home/ros2/ROS2Folder/topic_ws/build/topic_cpp/ament_cmake_index/share/ament_index/resource_index/package_run_dependencies/topic_cpp" "DESTINATION" "share/ament_index/resource_index/package_run_dependencies")

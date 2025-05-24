@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-219fcf42ccc8d6fc660e.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.12"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "topic_cpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "topic_cpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topic_cpp_uninstall-35d6b20fcd64c333e1ac.json",
+					"name" : "topic_cpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topicpublish::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topicpublish-32167e815ba796f96f63.json",
+					"name" : "topicpublish",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "topicsubscribe::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-topicsubscribe-f04b539a13fa02254bb2.json",
+					"name" : "topicsubscribe",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-d368615bd36884a89335.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/ros2/ROS2Folder/topic_ws/build/topic_cpp",
+		"source" : "/home/ros2/ROS2Folder/topic_ws/src/topic_cpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 3
+	}
+}

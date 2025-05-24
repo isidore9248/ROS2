@@ -1,4 +1,5 @@
 /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/lib/topic_cpp/topicpublish
+/home/ros2/ROS2Folder/topic_ws/install/topic_cpp/lib/topic_cpp/topicsubscribe
 /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
 /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
 /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh
