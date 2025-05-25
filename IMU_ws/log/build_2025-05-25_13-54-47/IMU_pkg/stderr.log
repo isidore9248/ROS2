@@ -1,0 +1,10 @@
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:5:1:[m[K [01;31m[Kerror: [m[Kdefault argument given for parameter 3 of ‘[01m[KIMUSerialReader::IMUSerialReader(std::string, int, std::string)[m[K’
+    5 | [01;31m[KIMUSerialReader[m[K::IMUSerialReader(std::string serial_port, int serial_baud,
+      | [01;31m[K^~~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:1[m[K:
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/../include/IMU_pkg/IMUSerialReader.h:17:5:[m[K [01;36m[Knote: [m[Kprevious specification in ‘[01m[KIMUSerialReader::IMUSerialReader(std::string, int, std::string)[m[K’ here
+   17 |     [01;36m[KIMUSerialReader[m[K(std::string serial_port, int serial_baud,
+      |     [01;36m[K^~~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:90: CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,8 @@
+[31mCMake Error at CMakeLists.txt:23:
+  Parse error.  Expected a command name, got unquoted argument with text
+  "//".
+
+[0m
+-- Configuring incomplete, errors occurred!
+See also "/home/ros/ROS2/IMU_ws/build/IMU_pkg/CMakeFiles/CMakeOutput.log".
+gmake: *** [Makefile:267: cmake_check_build_system] Error 1

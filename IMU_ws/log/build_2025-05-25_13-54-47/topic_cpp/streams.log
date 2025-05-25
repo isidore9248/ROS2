@@ -1,0 +1,25 @@
+[0.013s] Invoking command in '/home/ros/ROS2/IMU_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/topic_cpp -- -j8 -l8
+[0.069s] [100%] Built target topicpublish
+[0.069s] [100%] Built target topicsubscribe
+[0.082s] Invoked command in '/home/ros/ROS2/IMU_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/topic_cpp -- -j8 -l8
+[0.093s] Invoking command in '/home/ros/ROS2/IMU_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/IMU_ws/build/topic_cpp
+[0.101s] -- Install configuration: ""
+[0.101s] -- Execute custom install script
+[0.101s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/lib/topic_cpp/topicpublish
+[0.102s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/lib/topic_cpp/topicsubscribe
+[0.102s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
+[0.102s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
+[0.102s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh
+[0.102s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv
+[0.103s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/environment/path.sh
+[0.103s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv
+[0.103s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/local_setup.bash
+[0.103s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/local_setup.sh
+[0.103s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh
+[0.104s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv
+[0.104s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/package.dsv
+[0.114s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp
+[0.114s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake
+[0.114s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake
+[0.114s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/package.xml
+[0.116s] Invoked command in '/home/ros/ROS2/IMU_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/IMU_ws/build/topic_cpp

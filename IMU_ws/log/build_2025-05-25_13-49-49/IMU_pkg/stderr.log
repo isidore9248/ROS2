@@ -1,0 +1,19 @@
+In file included from [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:6[m[K:
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/../include/IMU_pkg/IMUSerialReader.h:25:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatic void IMUSerialReader::readSerialData()[m[K’ cannot be overloaded with ‘[01m[Kvoid IMUSerialReader::readSerialData()[m[K’
+   25 |     static void [01;31m[KreadSerialData[m[K()
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/../include/IMU_pkg/IMUSerialReader.h:21:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid IMUSerialReader::readSerialData()[m[K’
+   21 |     void [01;36m[KreadSerialData[m[K();
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+In file included from [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:1[m[K:
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/../include/IMU_pkg/IMUSerialReader.h:25:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatic void IMUSerialReader::readSerialData()[m[K’ cannot be overloaded with ‘[01m[Kvoid IMUSerialReader::readSerialData()[m[K’
+   25 |     static void [01;31m[KreadSerialData[m[K()
+      |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/../include/IMU_pkg/IMUSerialReader.h:21:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid IMUSerialReader::readSerialData()[m[K’
+   21 |     void [01;36m[KreadSerialData[m[K();
+      |          [01;36m[K^~~~~~~~~~~~~~[m[K
+gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:76: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:90: CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,25 @@
+[0.015s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[0.069s] [ 50%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[3.358s] [100%] [32m[1mLinking CXX executable IMU_node[0m
+[3.585s] [100%] Built target IMU_node
+[3.598s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[3.600s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/IMU_ws/build/IMU_pkg
+[3.607s] -- Install configuration: ""
+[3.608s] -- Execute custom install script
+[3.608s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/lib/IMU_pkg/IMU_node
+[3.608s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/ament_index/resource_index/package_run_dependencies/IMU_pkg
+[3.609s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/ament_index/resource_index/parent_prefix_path/IMU_pkg
+[3.609s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/ament_prefix_path.sh
+[3.609s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/ament_prefix_path.dsv
+[3.609s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/path.sh
+[3.609s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/path.dsv
+[3.609s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.bash
+[3.610s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.sh
+[3.610s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.zsh
+[3.610s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.dsv
+[3.610s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/package.dsv
+[3.620s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/ament_index/resource_index/packages/IMU_pkg
+[3.620s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/cmake/IMU_pkgConfig.cmake
+[3.620s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/cmake/IMU_pkgConfig-version.cmake
+[3.620s] -- Up-to-date symlink: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/package.xml
+[3.623s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/IMU_ws/build/IMU_pkg

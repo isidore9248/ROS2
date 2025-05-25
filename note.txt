@@ -18,3 +18,28 @@
 
 3、主函数中Node("topicpublish") 初始化的节点名称(topicpublish)
     为使用 ros2 node list 和 rqt_graph查看到的节点名称 
+
+4、msg文件 在使用前先编译好此文件
+    A.需要以大写开头
+    B.在CMakeLists.txt中添加
+        find_package(rosidl_default_generators REQUIRED)
+        
+        # * 给接口文件生成源代码
+        rosidl_generate_interfaces(
+        ${package_name}
+        "msg/Usrmsg.msg"
+        )
+
+        在 add_executable 后添加:
+        # 3. 添加对生成的消息的依赖
+        rosidl_get_typesupport_target(cpp_typesupport_target
+        ${package_name} "rosidl_typesupport_cpp")
+
+        # 4. 确保在构建节点之前生成消息
+        rosidl_target_interfaces(${node_name} ${package_name}
+        "rosidl_typesupport_cpp")
+
+    C.在package.xml中添加
+        <build_depend>rosidl_default_generators</build_depend>
+        <exec_depend>rosidl_default_runtime</exec_depend>
+        <member_of_group>rosidl_interface_packages</member_of_group>

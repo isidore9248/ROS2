@@ -1,0 +1,7 @@
+[0.015s] Invoking command in '/home/ros/ROS2/IMU_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/topic_cpp -- -j8 -l8
+[0.074s] [ 25%] [32mBuilding CXX object CMakeFiles/topicsubscribe.dir/src/topicsubscribe.cpp.o[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/topicpublish.dir/src/topicpublish.cpp.o[0m
+[5.363s] [ 75%] [32m[1mLinking CXX executable topicpublish[0m
+[5.715s] [ 75%] Built target topicpublish
+[9.340s] [100%] [32m[1mLinking CXX executable topicsubscribe[0m
+[9.814s] [100%] Built target topicsubscribe

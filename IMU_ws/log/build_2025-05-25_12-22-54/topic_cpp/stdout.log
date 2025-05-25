@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target topicsubscribe[0m
+[35m[1mConsolidate compiler generated dependencies of target topicpublish[0m
+[ 75%] Built target topicpublish
+[100%] Built target topicsubscribe
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/lib/topic_cpp/topicpublish
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/lib/topic_cpp/topicsubscribe
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/environment/path.sh
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/local_setup.bash
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/local_setup.sh
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/package.dsv
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake
+-- Symlinking: /home/ros/ROS2/IMU_ws/install/topic_cpp/share/topic_cpp/package.xml

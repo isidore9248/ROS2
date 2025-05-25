@@ -1,0 +1,18 @@
+[35m[1mConsolidate compiler generated dependencies of target IMU_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:56:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   56 |   int serial_fd = serial.open_serial([01;35m[K"/dev/ttyS0"[m[K);
+      |                                      [01;35m[K^~~~~~~~~~~~[m[K
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:57:7:[m[K [01;31m[Kerror: [m[K‘[01m[Kfd[m[K’ was not declared in this scope
+   57 |   if ([01;31m[Kfd[m[K < 0)
+      |       [01;31m[K^~[m[K
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:72:8:[m[K [01;31m[Kerror: [m[Kconflicting declaration ‘[01m[Kauto node[m[K’
+   72 |   auto [01;31m[Knode[m[K = std::make_shared<TopicPublish>();
+      |        [01;31m[K^~~~[m[K
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:53:8:[m[K [01;36m[Knote: [m[Kprevious declaration as ‘[01m[Kstd::shared_ptr<TopicPublish> node[m[K’
+   53 |   auto [01;36m[Knode[m[K = std::make_shared<TopicPublish>();
+      |        [01;36m[K^~~~[m[K
+gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:76: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

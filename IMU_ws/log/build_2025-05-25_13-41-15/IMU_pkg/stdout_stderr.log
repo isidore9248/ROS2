@@ -1,0 +1,15 @@
+[ 66%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KIMU_pkg/IMUSerialReader.h: No such file or directory
+    1 | #include [01;31m[K"IMU_pkg/IMUSerialReader.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:90: CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o] Error 1
+gmake[2]: *** Waiting for unfinished jobs....
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:6:10:[m[K [01;31m[Kfatal error: [m[KIMUSerialReader.h: No such file or directory
+    6 | #include [01;31m[K"IMUSerialReader.h"[m[K
+      |          [01;31m[K^~~~~~~~~~~~~~~~~~~[m[K
+compilation terminated.
+gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:76: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

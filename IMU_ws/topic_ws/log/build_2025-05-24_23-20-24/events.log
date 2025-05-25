@@ -1,0 +1,111 @@
+[0.000000] (-) TimerEvent: {}
+[0.000425] (topic_cpp) JobQueued: {'identifier': 'topic_cpp', 'dependencies': OrderedDict()}
+[0.000576] (topic_cpp) JobStarted: {'identifier': 'topic_cpp'}
+[0.010527] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'cmake'}
+[0.011622] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'build'}
+[0.012347] (topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp', '--', '-j16', '-l16'], 'cwd': '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/ros2'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2/ROS2Folder/topic_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros2/ROS2Folder/topic_ws/install/topic_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ROS2Folder/topic_ws/install/topic_cpp:/opt/ros/humble')]), 'shell': False}
+[0.077864] (topic_cpp) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target topicsubscribe\x1b[0m\n'}
+[0.087848] (topic_cpp) StdoutLine: {'line': b'[ 50%] Built target topicpublish\n'}
+[0.093624] (topic_cpp) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding CXX object CMakeFiles/topicsubscribe.dir/src/topicsubscribe.cpp.o\x1b[0m\n'}
+[0.099648] (-) TimerEvent: {}
+[0.200063] (-) TimerEvent: {}
+[0.300650] (-) TimerEvent: {}
+[0.401199] (-) TimerEvent: {}
+[0.501653] (-) TimerEvent: {}
+[0.602276] (-) TimerEvent: {}
+[0.703582] (-) TimerEvent: {}
+[0.804111] (-) TimerEvent: {}
+[0.904648] (-) TimerEvent: {}
+[1.005190] (-) TimerEvent: {}
+[1.105862] (-) TimerEvent: {}
+[1.206483] (-) TimerEvent: {}
+[1.307121] (-) TimerEvent: {}
+[1.407706] (-) TimerEvent: {}
+[1.508173] (-) TimerEvent: {}
+[1.608812] (-) TimerEvent: {}
+[1.709527] (-) TimerEvent: {}
+[1.810134] (-) TimerEvent: {}
+[1.910931] (-) TimerEvent: {}
+[2.011821] (-) TimerEvent: {}
+[2.112314] (-) TimerEvent: {}
+[2.212825] (-) TimerEvent: {}
+[2.313534] (-) TimerEvent: {}
+[2.414099] (-) TimerEvent: {}
+[2.514583] (-) TimerEvent: {}
+[2.615049] (-) TimerEvent: {}
+[2.715683] (-) TimerEvent: {}
+[2.816126] (-) TimerEvent: {}
+[2.916552] (-) TimerEvent: {}
+[3.017086] (-) TimerEvent: {}
+[3.117729] (-) TimerEvent: {}
+[3.218711] (-) TimerEvent: {}
+[3.319452] (-) TimerEvent: {}
+[3.420520] (-) TimerEvent: {}
+[3.520987] (-) TimerEvent: {}
+[3.621422] (-) TimerEvent: {}
+[3.721891] (-) TimerEvent: {}
+[3.822373] (-) TimerEvent: {}
+[3.922794] (-) TimerEvent: {}
+[4.023255] (-) TimerEvent: {}
+[4.123742] (-) TimerEvent: {}
+[4.224625] (-) TimerEvent: {}
+[4.325137] (-) TimerEvent: {}
+[4.425599] (-) TimerEvent: {}
+[4.526026] (-) TimerEvent: {}
+[4.626490] (-) TimerEvent: {}
+[4.726936] (-) TimerEvent: {}
+[4.827424] (-) TimerEvent: {}
+[4.927852] (-) TimerEvent: {}
+[5.028268] (-) TimerEvent: {}
+[5.128676] (-) TimerEvent: {}
+[5.229111] (-) TimerEvent: {}
+[5.329551] (-) TimerEvent: {}
+[5.429991] (-) TimerEvent: {}
+[5.530400] (-) TimerEvent: {}
+[5.630843] (-) TimerEvent: {}
+[5.731318] (-) TimerEvent: {}
+[5.831734] (-) TimerEvent: {}
+[5.932114] (-) TimerEvent: {}
+[6.032501] (-) TimerEvent: {}
+[6.132905] (-) TimerEvent: {}
+[6.233300] (-) TimerEvent: {}
+[6.333725] (-) TimerEvent: {}
+[6.434165] (-) TimerEvent: {}
+[6.534656] (-) TimerEvent: {}
+[6.635148] (-) TimerEvent: {}
+[6.735665] (-) TimerEvent: {}
+[6.836063] (-) TimerEvent: {}
+[6.936482] (-) TimerEvent: {}
+[7.036950] (-) TimerEvent: {}
+[7.137405] (-) TimerEvent: {}
+[7.210538] (topic_cpp) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable topicsubscribe\x1b[0m\n'}
+[7.237535] (-) TimerEvent: {}
+[7.337956] (-) TimerEvent: {}
+[7.438398] (-) TimerEvent: {}
+[7.538857] (-) TimerEvent: {}
+[7.539200] (topic_cpp) StdoutLine: {'line': b'[100%] Built target topicsubscribe\n'}
+[7.548016] (topic_cpp) CommandEnded: {'returncode': 0}
+[7.549868] (topic_cpp) JobProgress: {'identifier': 'topic_cpp', 'progress': 'install'}
+[7.557735] (topic_cpp) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp'], 'cwd': '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('MAIL', '/var/mail/ros2'), ('USER', 'ros2'), ('XDG_SESSION_TYPE', 'tty'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/ros2'), ('OLDPWD', '/home/ros2'), ('ROS_PYTHON_VERSION', '3'), ('COLCON_PREFIX_PATH', '/home/ros2/ROS2Folder/topic_ws/install'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros2'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', 'c9'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('LANG', 'C.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('AMENT_PREFIX_PATH', '/home/ros2/ROS2Folder/topic_ws/install/topic_cpp:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('PWD', '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp'), ('XDG_DATA_DIRS', '/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/home/ros2/ROS2Folder/topic_ws/install/topic_cpp:/opt/ros/humble')]), 'shell': False}
+[7.564748] (topic_cpp) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[7.566118] (topic_cpp) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[7.566810] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/lib/topic_cpp/topicpublish\n'}
+[7.567000] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/lib/topic_cpp/topicsubscribe\n'}
+[7.567232] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp\n'}
+[7.567551] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp\n'}
+[7.567628] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh\n'}
+[7.567804] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv\n'}
+[7.567870] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/path.sh\n'}
+[7.568043] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv\n'}
+[7.568099] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.bash\n'}
+[7.568254] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.sh\n'}
+[7.568318] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh\n'}
+[7.568409] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv\n'}
+[7.568552] (topic_cpp) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/package.dsv\n'}
+[7.577582] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp\n'}
+[7.577858] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake\n'}
+[7.578219] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake\n'}
+[7.578303] (topic_cpp) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/package.xml\n'}
+[7.579737] (topic_cpp) CommandEnded: {'returncode': 0}
+[7.605389] (topic_cpp) JobEnded: {'identifier': 'topic_cpp', 'rc': 0}
+[7.606212] (-) EventReactorShutdown: {}

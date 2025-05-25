@@ -1,0 +1,10 @@
+[0.018s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[0.070s] [ 50%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[0.364s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:4:10:[m[K [01;31m[Kfatal error: [m[Ktf2_msgs/msg/tf_message.hpp: No such file or directory
+[0.365s]     4 | #include [01;31m[K"tf2_msgs/msg/tf_message.hpp"[m[K
+[0.365s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.365s] compilation terminated.
+[0.368s] gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:76: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o] Error 1
+[0.368s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+[0.369s] gmake: *** [Makefile:146: all] Error 2
+[0.372s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8

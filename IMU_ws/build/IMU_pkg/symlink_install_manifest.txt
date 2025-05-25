@@ -1,0 +1,16 @@
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/lib/IMU_pkg/IMU_node
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/ament_index/resource_index/package_run_dependencies/IMU_pkg
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/ament_index/resource_index/parent_prefix_path/IMU_pkg
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/ament_prefix_path.sh
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/ament_prefix_path.dsv
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/path.sh
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/path.dsv
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.bash
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.sh
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.zsh
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.dsv
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/package.dsv
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/ament_index/resource_index/packages/IMU_pkg
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/cmake/IMU_pkgConfig.cmake
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/cmake/IMU_pkgConfig-version.cmake
+/home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/package.xml

@@ -1,0 +1,15 @@
+[0.016s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[0.062s] [35m[1mConsolidate compiler generated dependencies of target IMU_node[0m
+[0.084s] [ 50%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[4.898s] [100%] [32m[1mLinking CXX executable IMU_node[0m
+[5.106s] /usr/bin/ld: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o: in function `main':
+[5.106s] IMU_node.cpp:(.text+0xa9): undefined reference to `Serial::Serial()'
+[5.107s] /usr/bin/ld: IMU_node.cpp:(.text+0xd7): undefined reference to `Serial::open_serial(char*)'
+[5.107s] /usr/bin/ld: IMU_node.cpp:(.text+0x12a): undefined reference to `Serial::set_serial(int, int, int, char, int)'
+[5.107s] /usr/bin/ld: IMU_node.cpp:(.text+0x24a): undefined reference to `Serial::~Serial()'
+[5.107s] /usr/bin/ld: IMU_node.cpp:(.text+0x2fb): undefined reference to `Serial::~Serial()'
+[5.141s] collect2: error: ld returned 1 exit status
+[5.143s] gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:205: IMU_node] Error 1
+[5.143s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+[5.144s] gmake: *** [Makefile:146: all] Error 2
+[5.147s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8

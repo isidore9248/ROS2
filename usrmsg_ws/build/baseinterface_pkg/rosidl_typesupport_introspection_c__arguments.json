@@ -1,0 +1,19 @@
+{
+  "package_name": "baseinterface_pkg",
+  "output_dir": "/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg/rosidl_typesupport_introspection_c/baseinterface_pkg",
+  "template_dir": "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource",
+  "idl_tuples": [
+    "/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg/rosidl_adapter/baseinterface_pkg:msg/Usrmsg.idl"
+  ],
+  "target_dependencies": [
+    "/opt/ros/humble/lib/rosidl_typesupport_introspection_c/rosidl_typesupport_introspection_c",
+    "/opt/ros/humble/local/lib/python3.10/dist-packages/rosidl_typesupport_introspection_c/__init__.py",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/idl__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/msg__type_support.c.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__rosidl_typesupport_introspection_c.h.em",
+    "/opt/ros/humble/share/rosidl_typesupport_introspection_c/resource/srv__type_support.c.em",
+    "/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg/rosidl_adapter/baseinterface_pkg/msg/Usrmsg.idl"
+  ]
+}

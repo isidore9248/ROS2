@@ -1,0 +1,6 @@
+{
+  "package_name": "baseinterface_pkg",
+  "non_idl_tuples": [
+    "/home/ros/ROS2/usrmsg_ws/src/baseinterface_pkg:msg/Usrmsg.msg"
+  ]
+}

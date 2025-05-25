@@ -1,0 +1,35 @@
+[0.016s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.170s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.200s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.202s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.209s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.274s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.382s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.447s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.509s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.688s] [31mCMake Error at CMakeLists.txt:23 (find_package):
+[0.689s]   By not providing "Findserial.cmake" in CMAKE_MODULE_PATH this project has
+[0.689s]   asked CMake to find a package configuration file provided by "serial", but
+[0.689s]   CMake did not find one.
+[0.689s] 
+[0.689s]   Could not find a package configuration file provided by "serial" with any
+[0.689s]   of the following names:
+[0.689s] 
+[0.690s]     serialConfig.cmake
+[0.690s]     serial-config.cmake
+[0.690s] 
+[0.690s]   Add the installation prefix of "serial" to CMAKE_PREFIX_PATH or set
+[0.690s]   "serial_DIR" to a directory containing one of the above files.  If "serial"
+[0.690s]   provides a separate development package or SDK, be sure it has been
+[0.690s]   installed.
+[0.690s] 
+[0.690s] [0m
+[0.690s] -- Configuring incomplete, errors occurred!
+[0.690s] See also "/home/ros/ROS2/IMU_ws/build/IMU_pkg/CMakeFiles/CMakeOutput.log".
+[0.698s] gmake: *** [Makefile:267: cmake_check_build_system] Error 1
+[0.700s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8

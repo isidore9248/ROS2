@@ -42,3 +42,17 @@
     </br>刷新环境变量脚本 执行时使用```source```命令执行，不要用```./```的形式
 - ```note.txt```
     </br>学习笔记
+
+## 问题记录
+1. 在使用自定义接口消息时，第一次编译不通过，但是第二次编译通过 </br>
+    - 原因：编译主程序时，没有编译自定义消息类型，所以编译不通过，但是第二次编译时，编译了自定义消息类型，所以编译通过
+    - 解决方法：在```CMakeLists.txt``` 中 ```add_executable```后添加如下内容，确保了消息生成在节点编译之前完成建立了正确的构建依赖关系
+    ``` CMakeLists.txt
+    # 3. 添加对生成的消息的依赖
+    rosidl_get_typesupport_target(cpp_typesupport_target
+    ${package_name} "rosidl_typesupport_cpp")
+
+    # 4. 确保在构建节点之前生成消息
+    rosidl_target_interfaces(${node_name} ${package_name}
+    "rosidl_typesupport_cpp")
+    ```

@@ -1,0 +1,13 @@
+[35m[1mConsolidate compiler generated dependencies of target IMU_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[100%] [32m[1mLinking CXX executable IMU_node[0m
+/usr/bin/ld: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o: in function `main':
+IMU_node.cpp:(.text+0xa9): undefined reference to `Serial::Serial()'
+/usr/bin/ld: IMU_node.cpp:(.text+0xd7): undefined reference to `Serial::open_serial(char*)'
+/usr/bin/ld: IMU_node.cpp:(.text+0x12a): undefined reference to `Serial::set_serial(int, int, int, char, int)'
+/usr/bin/ld: IMU_node.cpp:(.text+0x24a): undefined reference to `Serial::~Serial()'
+/usr/bin/ld: IMU_node.cpp:(.text+0x2fb): undefined reference to `Serial::~Serial()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:205: IMU_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

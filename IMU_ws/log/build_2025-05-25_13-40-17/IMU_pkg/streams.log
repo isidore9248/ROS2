@@ -1,0 +1,38 @@
+[0.015s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[0.041s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.162s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.170s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.201s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.203s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.210s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.220s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.235s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.273s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.274s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.383s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.444s] -- Found sensor_msgs: 4.8.0 (/opt/ros/humble/share/sensor_msgs/cmake)
+[0.482s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[0.595s] -- Found asio_cmake_module: 1.2.0 (/opt/ros/humble/share/asio_cmake_module/cmake)
+[0.596s] -- Found serial_driver: 1.2.0 (/opt/ros/humble/share/serial_driver/cmake)
+[0.618s] -- Found ASIO: /usr/include  
+[0.717s] WARNING: Package name "IMU_pkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.733s] -- Configuring done
+[0.773s] -- Generating done
+[0.779s] -- Build files have been written to: /home/ros/ROS2/IMU_ws/build/IMU_pkg
+[0.810s] [35m[1mConsolidate compiler generated dependencies of target IMU_node[0m
+[0.832s] [ 66%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o[0m
+[0.832s] [ 66%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[0.844s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:1:10:[m[K [01;31m[Kfatal error: [m[KIMU_pkg/IMUSerialReader.h: No such file or directory
+[0.844s]     1 | #include [01;31m[K"IMU_pkg/IMUSerialReader.h"[m[K
+[0.844s]       |          [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[0.844s] compilation terminated.
+[0.845s] gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:90: CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o] Error 1
+[0.845s] gmake[2]: *** Waiting for unfinished jobs....
+[1.144s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:5:10:[m[K [01;31m[Kfatal error: [m[Kserial/serial.h: No such file or directory
+[1.144s]     5 | #include [01;31m[K<serial/serial.h>[m[K
+[1.144s]       |          [01;31m[K^~~~~~~~~~~~~~~~~[m[K
+[1.144s] compilation terminated.
+[1.148s] gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:76: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o] Error 1
+[1.148s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+[1.149s] gmake: *** [Makefile:146: all] Error 2
+[1.152s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8

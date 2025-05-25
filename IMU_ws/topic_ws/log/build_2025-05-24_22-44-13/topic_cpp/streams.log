@@ -1,0 +1,25 @@
+[0.017s] Invoking command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ROS2Folder/topic_ws/build/topic_cpp -- -j16 -l16
+[0.119s] [ 50%] [32mBuilding CXX object CMakeFiles/topicpublish.dir/src/topicpublish.cpp.o[0m
+[3.959s] [100%] [32m[1mLinking CXX executable topicpublish[0m
+[4.171s] [100%] Built target topicpublish
+[4.181s] Invoked command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ROS2Folder/topic_ws/build/topic_cpp -- -j16 -l16
+[4.191s] Invoking command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ROS2Folder/topic_ws/build/topic_cpp
+[4.196s] -- Install configuration: ""
+[4.197s] -- Execute custom install script
+[4.198s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/lib/topic_cpp/topicpublish
+[4.199s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/package_run_dependencies/topic_cpp
+[4.200s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/parent_prefix_path/topic_cpp
+[4.200s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.sh
+[4.201s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/ament_prefix_path.dsv
+[4.201s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/path.sh
+[4.202s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/environment/path.dsv
+[4.203s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.bash
+[4.203s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.sh
+[4.204s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.zsh
+[4.204s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/local_setup.dsv
+[4.204s] -- Symlinking: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/package.dsv
+[4.214s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/ament_index/resource_index/packages/topic_cpp
+[4.214s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig.cmake
+[4.215s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/cmake/topic_cppConfig-version.cmake
+[4.215s] -- Up-to-date symlink: /home/ros2/ROS2Folder/topic_ws/install/topic_cpp/share/topic_cpp/package.xml
+[4.218s] Invoked command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ROS2Folder/topic_ws/build/topic_cpp

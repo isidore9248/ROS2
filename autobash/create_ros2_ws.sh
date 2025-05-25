@@ -98,9 +98,11 @@ cat > ${pkg_name}/package.xml << EOL
   
   <buildtool_depend>ament_cmake</buildtool_depend>
   
+<!-- * include files -->
   <build_depend>rclcpp</build_depend>
   <build_depend>std_msgs</build_depend>
-  
+
+<!-- * .so dynamic files -->
   <exec_depend>rclcpp</exec_depend>
   <exec_depend>std_msgs</exec_depend>
 
@@ -113,33 +115,54 @@ cat > ${pkg_name}/package.xml << EOL
 </package>
 EOL
 
-# 修改CMakeLists.txt
-echo "配置CMakeLists.txt..."
+# 在 create_ros2_ws.sh 脚本中修改 CMakeLists.txt 生成部分
+echo "配置 CMakeLists.txt..."
 cat > ${pkg_name}/CMakeLists.txt << EOL
 cmake_minimum_required(VERSION 3.8)
 
 set(package_name "${pkg_name}")  # 从 shell 变量传入
 set(node_name "${node_name}")    # 从 shell 变量传入
 
-project(${pkg_name})
+project(\${package_name})
 
 if(CMAKE_COMPILER_IS_GNUCXX OR CMAKE_CXX_COMPILER_ID MATCHES "Clang")
   add_compile_options(-Wall -Wextra -Wpedantic)
 endif()
 
+# find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(rclcpp REQUIRED)
 find_package(std_msgs REQUIRED)
 
-add_executable(${node_name} src/${node_name}.cpp)  # 正确：直接引用 CMake 变量
-ament_target_dependencies(${node_name} rclcpp std_msgs)
+add_executable(\${node_name} src/\${node_name}.cpp)
+target_include_directories(\${node_name} PUBLIC
+  \$<BUILD_INTERFACE:\${CMAKE_CURRENT_SOURCE_DIR}/include>
+  \$<INSTALL_INTERFACE:include>)
+target_compile_features(\${node_name} PUBLIC c_std_99 cxx_std_17)  # Require C99 and C++17
+ament_target_dependencies(
+  \${node_name}
+  "rclcpp"
+  "std_msgs"
+)
 
-install(TARGETS
-  ${node_name}
+install(TARGETS \${node_name}
   DESTINATION lib/\${PROJECT_NAME})
+
+if(BUILD_TESTING)
+  find_package(ament_lint_auto REQUIRED)
+  # the following line skips the linter which checks for copyrights
+  # comment the line when a copyright and license is added to all source files
+  set(ament_cmake_copyright_FOUND TRUE)
+  # the following line skips cpplint (only works in a git repo)
+  # comment the line when this package is in a git repo and when
+  # a copyright and license is added to all source files
+  set(ament_cmake_cpplint_FOUND TRUE)
+  ament_lint_auto_find_test_dependencies()
+endif()
 
 ament_package()
 EOL
+
 
 # 初始构建
 cd ..

@@ -1,0 +1,62 @@
+[0.017s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/IMU_ws/src/IMU_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/IMU_ws/install/IMU_pkg
+[0.131s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.243s] -- Detecting C compiler ABI info
+[0.322s] -- Detecting C compiler ABI info - done
+[0.333s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.334s] -- Detecting C compile features
+[0.335s] -- Detecting C compile features - done
+[0.341s] -- Detecting CXX compiler ABI info
+[0.429s] -- Detecting CXX compiler ABI info - done
+[0.439s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.439s] -- Detecting CXX compile features
+[0.439s] -- Detecting CXX compile features - done
+[0.451s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.605s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.683s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.726s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.793s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.800s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.814s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.835s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.861s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.935s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.940s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.060s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.094s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.137s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.150s] -- Looking for pthread.h
+[1.238s] -- Looking for pthread.h - found
+[1.239s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.316s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.317s] -- Found Threads: TRUE  
+[1.457s] WARNING: Package name "IMU_pkg" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[1.479s] -- Configuring done
+[1.489s] -- Generating done
+[1.492s] -- Build files have been written to: /home/ros/ROS2/IMU_ws/build/IMU_pkg
+[1.502s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/IMU_ws/src/IMU_pkg -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/IMU_ws/install/IMU_pkg
+[1.505s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[1.557s] [ 50%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[1.605s] [100%] [32m[1mLinking CXX executable IMU_node[0m
+[1.705s] [100%] Built target IMU_node
+[1.719s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[1.731s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/IMU_ws/build/IMU_pkg
+[1.737s] -- Install configuration: ""
+[1.738s] -- Execute custom install script
+[1.738s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/lib/IMU_pkg/IMU_node
+[1.747s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/ament_index/resource_index/package_run_dependencies/IMU_pkg
+[1.756s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/ament_index/resource_index/parent_prefix_path/IMU_pkg
+[1.765s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/ament_prefix_path.sh
+[1.774s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/ament_prefix_path.dsv
+[1.785s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/path.sh
+[1.795s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/environment/path.dsv
+[1.804s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.bash
+[1.813s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.sh
+[1.822s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.zsh
+[1.832s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/local_setup.dsv
+[1.843s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/package.dsv
+[1.853s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/ament_index/resource_index/packages/IMU_pkg
+[1.863s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/cmake/IMU_pkgConfig.cmake
+[1.872s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/cmake/IMU_pkgConfig-version.cmake
+[1.880s] -- Symlinking: /home/ros/ROS2/IMU_ws/install/IMU_pkg/share/IMU_pkg/package.xml
+[1.892s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/IMU_ws/build/IMU_pkg

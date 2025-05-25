@@ -1,0 +1,1 @@
+Invoking command in '/home/ros/ROS2/IMU_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/IMU_ws/topic_ws/src/topic_cpp -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/IMU_ws/install/topic_cpp
