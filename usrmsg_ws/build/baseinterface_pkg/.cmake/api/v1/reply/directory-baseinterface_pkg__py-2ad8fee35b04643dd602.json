@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "baseinterface_pkg__py",
+		"source" : "/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg/baseinterface_pkg__py"
+	}
+}

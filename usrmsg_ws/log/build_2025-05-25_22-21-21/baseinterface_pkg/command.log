@@ -1,0 +1,6 @@
+Invoking command in '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/usrmsg_ws/src/baseinterface_pkg -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg
+Invoked command in '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/ros/ROS2/usrmsg_ws/src/baseinterface_pkg -DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg
+Invoking command in '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg -- -j8 -l8
+Invoked command in '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg -- -j8 -l8
+Invoking command in '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg
+Invoked command in '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg

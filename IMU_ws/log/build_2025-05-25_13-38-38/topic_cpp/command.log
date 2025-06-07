@@ -1,0 +1,1 @@
+Invoking command in '/home/ros/ROS2/IMU_ws/build/topic_cpp': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/topic_cpp -- -j8 -l8

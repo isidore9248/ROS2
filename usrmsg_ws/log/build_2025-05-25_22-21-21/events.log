@@ -1,0 +1,382 @@
+[0.000000] (-) TimerEvent: {}
+[0.000491] (baseinterface_pkg) JobQueued: {'identifier': 'baseinterface_pkg', 'dependencies': OrderedDict()}
+[0.000646] (baseinterface_pkg) JobStarted: {'identifier': 'baseinterface_pkg'}
+[0.015938] (baseinterface_pkg) JobProgress: {'identifier': 'baseinterface_pkg', 'progress': 'cmake'}
+[0.017230] (baseinterface_pkg) Command: {'cmd': ['/usr/bin/cmake', '/home/ros/ROS2/usrmsg_ws/src/baseinterface_pkg', '-DCMAKE_INSTALL_PREFIX=/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg'], 'cwd': '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.225.1 1673 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bce425f1-2716-400d-8e7d-cfcbadccf60b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-095b99fcf5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg'), ('SSH_CONNECTION', '192.168.225.1 1673 192.168.225.135 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.098565] (-) TimerEvent: {}
+[0.142080] (baseinterface_pkg) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199409] (-) TimerEvent: {}
+[0.265330] (baseinterface_pkg) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.281513] (baseinterface_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.299656] (-) TimerEvent: {}
+[0.400686] (-) TimerEvent: {}
+[0.421990] (baseinterface_pkg) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.443011] (baseinterface_pkg) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.443988] (baseinterface_pkg) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.444495] (baseinterface_pkg) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.450794] (baseinterface_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.501209] (-) TimerEvent: {}
+[0.602400] (-) TimerEvent: {}
+[0.614429] (baseinterface_pkg) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.632600] (baseinterface_pkg) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.633094] (baseinterface_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.633770] (baseinterface_pkg) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.637386] (baseinterface_pkg) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.702982] (-) TimerEvent: {}
+[0.803652] (-) TimerEvent: {}
+[0.909047] (-) TimerEvent: {}
+[0.920179] (baseinterface_pkg) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter \n'}
+[1.009890] (-) TimerEvent: {}
+[1.094026] (baseinterface_pkg) StdoutLine: {'line': b'-- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.110105] (-) TimerEvent: {}
+[1.173957] (baseinterface_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.184212] (baseinterface_pkg) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.200751] (baseinterface_pkg) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.210525] (-) TimerEvent: {}
+[1.227024] (baseinterface_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.266789] (baseinterface_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.311133] (-) TimerEvent: {}
+[1.357141] (baseinterface_pkg) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.362254] (baseinterface_pkg) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.411940] (-) TimerEvent: {}
+[1.513064] (-) TimerEvent: {}
+[1.535553] (baseinterface_pkg) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.590413] (baseinterface_pkg) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.613746] (-) TimerEvent: {}
+[1.670017] (baseinterface_pkg) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.688109] (baseinterface_pkg) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.714550] (-) TimerEvent: {}
+[1.815481] (-) TimerEvent: {}
+[1.833072] (baseinterface_pkg) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.833974] (baseinterface_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.916073] (-) TimerEvent: {}
+[1.988751] (baseinterface_pkg) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.990203] (baseinterface_pkg) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.018178] (-) TimerEvent: {}
+[2.119610] (-) TimerEvent: {}
+[2.126221] (baseinterface_pkg) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[2.220131] (-) TimerEvent: {}
+[2.320874] (-) TimerEvent: {}
+[2.422541] (-) TimerEvent: {}
+[2.523235] (-) TimerEvent: {}
+[2.624154] (-) TimerEvent: {}
+[2.626288] (baseinterface_pkg) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[2.724436] (-) TimerEvent: {}
+[2.825205] (-) TimerEvent: {}
+[2.926338] (-) TimerEvent: {}
+[3.028086] (-) TimerEvent: {}
+[3.129105] (-) TimerEvent: {}
+[3.229851] (-) TimerEvent: {}
+[3.247838] (baseinterface_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[3.330515] (-) TimerEvent: {}
+[3.430969] (-) TimerEvent: {}
+[3.467638] (baseinterface_pkg) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[3.513109] (baseinterface_pkg) StdoutLine: {'line': b'-- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") \n'}
+[3.515833] (baseinterface_pkg) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[3.531229] (-) TimerEvent: {}
+[3.571032] (baseinterface_pkg) StdoutLine: {'line': b'-- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") \n'}
+[3.571655] (baseinterface_pkg) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[3.571860] (baseinterface_pkg) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[3.572003] (baseinterface_pkg) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[3.613180] (baseinterface_pkg) StdoutLine: {'line': b'-- Found PythonExtra: .so  \n'}
+[3.632045] (-) TimerEvent: {}
+[3.677108] (baseinterface_pkg) StderrLine: {'line': b'\x1b[0mCMake Deprecation Warning at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_target_interfaces.cmake:32 (message):\n'}
+[3.677509] (baseinterface_pkg) StderrLine: {'line': b'  Use rosidl_get_typesupport_target() and target_link_libraries() instead of\n'}
+[3.677686] (baseinterface_pkg) StderrLine: {'line': b'  rosidl_target_interfaces()\n'}
+[3.677836] (baseinterface_pkg) StderrLine: {'line': b'Call Stack (most recent call first):\n'}
+[3.677967] (baseinterface_pkg) StderrLine: {'line': b'  CMakeLists.txt:33 (rosidl_target_interfaces)\n'}
+[3.678100] (baseinterface_pkg) StderrLine: {'line': b'\n'}
+[3.678238] (baseinterface_pkg) StderrLine: {'line': b'\x1b[0m\n'}
+[3.681245] (baseinterface_pkg) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[3.711638] (baseinterface_pkg) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[3.712845] (baseinterface_pkg) StdoutLine: {'line': b'-- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros/ROS2/usrmsg_ws/src/baseinterface_pkg/include>\n'}
+[3.713081] (baseinterface_pkg) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[3.714371] (baseinterface_pkg) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[3.716627] (baseinterface_pkg) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[3.716810] (baseinterface_pkg) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[3.717776] (baseinterface_pkg) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[3.724597] (baseinterface_pkg) StdoutLine: {'line': b'-- Configuring done\n'}
+[3.732244] (-) TimerEvent: {}
+[3.799881] (baseinterface_pkg) StdoutLine: {'line': b'-- Generating done\n'}
+[3.828248] (baseinterface_pkg) StdoutLine: {'line': b'-- Build files have been written to: /home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg\n'}
+[3.832490] (-) TimerEvent: {}
+[3.848697] (baseinterface_pkg) CommandEnded: {'returncode': 0}
+[3.850305] (baseinterface_pkg) JobProgress: {'identifier': 'baseinterface_pkg', 'progress': 'build'}
+[3.853722] (baseinterface_pkg) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg', '--', '-j8', '-l8'], 'cwd': '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.225.1 1673 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bce425f1-2716-400d-8e7d-cfcbadccf60b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-095b99fcf5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg'), ('SSH_CONNECTION', '192.168.225.1 1673 192.168.225.135 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[3.936730] (baseinterface_pkg) StdoutLine: {'line': b'[  3%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[3.937168] (-) TimerEvent: {}
+[3.959838] (baseinterface_pkg) StdoutLine: {'line': b'[  6%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[3.978756] (baseinterface_pkg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_copy_baseinterface_pkg\n'}
+[4.040941] (-) TimerEvent: {}
+[4.141595] (-) TimerEvent: {}
+[4.242811] (-) TimerEvent: {}
+[4.343800] (-) TimerEvent: {}
+[4.444533] (-) TimerEvent: {}
+[4.498706] (baseinterface_pkg) StdoutLine: {'line': b'running egg_info\n'}
+[4.499824] (baseinterface_pkg) StdoutLine: {'line': b'creating baseinterface_pkg.egg-info\n'}
+[4.500325] (baseinterface_pkg) StdoutLine: {'line': b'writing baseinterface_pkg.egg-info/PKG-INFO\n'}
+[4.500596] (baseinterface_pkg) StdoutLine: {'line': b'writing dependency_links to baseinterface_pkg.egg-info/dependency_links.txt\n'}
+[4.500987] (baseinterface_pkg) StdoutLine: {'line': b'writing top-level names to baseinterface_pkg.egg-info/top_level.txt\n'}
+[4.501479] (baseinterface_pkg) StdoutLine: {'line': b"writing manifest file 'baseinterface_pkg.egg-info/SOURCES.txt'\n"}
+[4.505180] (baseinterface_pkg) StdoutLine: {'line': b"reading manifest file 'baseinterface_pkg.egg-info/SOURCES.txt'\n"}
+[4.506262] (baseinterface_pkg) StdoutLine: {'line': b"writing manifest file 'baseinterface_pkg.egg-info/SOURCES.txt'\n"}
+[4.544936] (-) TimerEvent: {}
+[4.559081] (baseinterface_pkg) StdoutLine: {'line': b'[  6%] Built target ament_cmake_python_build_baseinterface_pkg_egg\n'}
+[4.612544] (baseinterface_pkg) StdoutLine: {'line': b'[  6%] Built target baseinterface_pkg__cpp\n'}
+[4.614268] (baseinterface_pkg) StdoutLine: {'line': b'[  9%] \x1b[32mBuilding C object CMakeFiles/baseinterface_pkg__rosidl_generator_c.dir/rosidl_generator_c/baseinterface_pkg/msg/detail/usrmsg__functions.c.o\x1b[0m\n'}
+[4.631332] (baseinterface_pkg) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.631604] (baseinterface_pkg) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.631892] (baseinterface_pkg) StdoutLine: {'line': b'[ 18%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[4.645530] (-) TimerEvent: {}
+[4.707715] (baseinterface_pkg) StdoutLine: {'line': b'[ 21%] \x1b[32m\x1b[1mLinking C shared library libbaseinterface_pkg__rosidl_generator_c.so\x1b[0m\n'}
+[4.746093] (-) TimerEvent: {}
+[4.788100] (baseinterface_pkg) StdoutLine: {'line': b'[ 21%] Built target baseinterface_pkg__rosidl_generator_c\n'}
+[4.809633] (baseinterface_pkg) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[4.809929] (baseinterface_pkg) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[4.810058] (baseinterface_pkg) StdoutLine: {'line': b'[ 30%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.847606] (-) TimerEvent: {}
+[4.950279] (-) TimerEvent: {}
+[5.061263] (-) TimerEvent: {}
+[5.162401] (-) TimerEvent: {}
+[5.183582] (baseinterface_pkg) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/baseinterface_pkg__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/baseinterface_pkg/msg/usrmsg__type_support.cpp.o\x1b[0m\n'}
+[5.249728] (baseinterface_pkg) StdoutLine: {'line': b'[ 36%] \x1b[32mBuilding CXX object CMakeFiles/baseinterface_pkg__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/baseinterface_pkg/msg/detail/usrmsg__type_support.cpp.o\x1b[0m\n'}
+[5.249995] (baseinterface_pkg) StdoutLine: {'line': b'[ 39%] \x1b[32mBuilding CXX object CMakeFiles/baseinterface_pkg__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/baseinterface_pkg/msg/detail/dds_fastrtps/usrmsg__type_support.cpp.o\x1b[0m\n'}
+[5.265416] (-) TimerEvent: {}
+[5.355675] (baseinterface_pkg) StdoutLine: {'line': b'[ 42%] \x1b[32mBuilding CXX object CMakeFiles/baseinterface_pkg__rosidl_typesupport_c.dir/rosidl_typesupport_c/baseinterface_pkg/msg/usrmsg__type_support.cpp.o\x1b[0m\n'}
+[5.365712] (-) TimerEvent: {}
+[5.408787] (baseinterface_pkg) StdoutLine: {'line': b'[ 45%] \x1b[32mBuilding CXX object CMakeFiles/baseinterface_pkg__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/baseinterface_pkg/msg/detail/usrmsg__type_support_c.cpp.o\x1b[0m\n'}
+[5.418872] (baseinterface_pkg) StdoutLine: {'line': b'[ 48%] \x1b[32m\x1b[1mLinking CXX shared library libbaseinterface_pkg__rosidl_typesupport_c.so\x1b[0m\n'}
+[5.434767] (baseinterface_pkg) StdoutLine: {'line': b'[ 51%] \x1b[32mBuilding C object CMakeFiles/baseinterface_pkg__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/baseinterface_pkg/msg/detail/usrmsg__type_support.c.o\x1b[0m\n'}
+[5.477429] (-) TimerEvent: {}
+[5.508971] (baseinterface_pkg) StdoutLine: {'line': b'[ 54%] \x1b[32m\x1b[1mLinking C shared library libbaseinterface_pkg__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[5.519251] (baseinterface_pkg) StdoutLine: {'line': b'[ 54%] Built target baseinterface_pkg__rosidl_typesupport_c\n'}
+[5.575193] (baseinterface_pkg) StdoutLine: {'line': b'[ 54%] Built target baseinterface_pkg__rosidl_typesupport_introspection_c\n'}
+[5.577743] (-) TimerEvent: {}
+[5.681710] (-) TimerEvent: {}
+[5.682707] (baseinterface_pkg) StdoutLine: {'line': b'[ 57%] \x1b[32m\x1b[1mLinking CXX shared library libbaseinterface_pkg__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[5.774862] (baseinterface_pkg) StdoutLine: {'line': b'[ 57%] Built target baseinterface_pkg__rosidl_typesupport_cpp\n'}
+[5.781956] (-) TimerEvent: {}
+[5.883220] (-) TimerEvent: {}
+[5.978392] (baseinterface_pkg) StdoutLine: {'line': b'[ 60%] \x1b[32m\x1b[1mLinking CXX shared library libbaseinterface_pkg__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[5.984071] (-) TimerEvent: {}
+[6.014642] (baseinterface_pkg) StdoutLine: {'line': b'[ 63%] \x1b[32m\x1b[1mLinking CXX shared library libbaseinterface_pkg__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[6.040635] (baseinterface_pkg) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libbaseinterface_pkg__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[6.085350] (-) TimerEvent: {}
+[6.154378] (baseinterface_pkg) StdoutLine: {'line': b'[ 66%] Built target baseinterface_pkg__rosidl_typesupport_introspection_cpp\n'}
+[6.185841] (-) TimerEvent: {}
+[6.231495] (baseinterface_pkg) StdoutLine: {'line': b'[ 66%] Built target baseinterface_pkg__rosidl_typesupport_fastrtps_cpp\n'}
+[6.256888] (baseinterface_pkg) StdoutLine: {'line': b'[ 66%] Built target baseinterface_pkg__rosidl_typesupport_fastrtps_c\n'}
+[6.286680] (-) TimerEvent: {}
+[6.291598] (baseinterface_pkg) StdoutLine: {'line': b'[ 66%] Built target baseinterface_pkg\n'}
+[6.333392] (baseinterface_pkg) StdoutLine: {'line': b'[ 72%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[6.333792] (baseinterface_pkg) StdoutLine: {'line': b'[ 72%] \x1b[32mBuilding CXX object CMakeFiles/baseinterface_node.dir/src/baseinterface_node.cpp.o\x1b[0m\n'}
+[6.393800] (-) TimerEvent: {}
+[6.494716] (-) TimerEvent: {}
+[6.595414] (-) TimerEvent: {}
+[6.696439] (-) TimerEvent: {}
+[6.797192] (-) TimerEvent: {}
+[6.898164] (-) TimerEvent: {}
+[6.998820] (-) TimerEvent: {}
+[7.017369] (baseinterface_pkg) StdoutLine: {'line': b'[ 72%] Built target baseinterface_pkg__py\n'}
+[7.055924] (baseinterface_pkg) StdoutLine: {'line': b'[ 75%] \x1b[32mBuilding C object CMakeFiles/baseinterface_pkg__rosidl_generator_py.dir/rosidl_generator_py/baseinterface_pkg/msg/_usrmsg_s.c.o\x1b[0m\n'}
+[7.101276] (-) TimerEvent: {}
+[7.202280] (-) TimerEvent: {}
+[7.253267] (baseinterface_pkg) StdoutLine: {'line': b'[ 78%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/baseinterface_pkg/libbaseinterface_pkg__rosidl_generator_py.so\x1b[0m\n'}
+[7.303811] (-) TimerEvent: {}
+[7.345066] (baseinterface_pkg) StdoutLine: {'line': b'[ 78%] Built target baseinterface_pkg__rosidl_generator_py\n'}
+[7.387562] (baseinterface_pkg) StdoutLine: {'line': b'[ 81%] \x1b[32mBuilding C object CMakeFiles/baseinterface_pkg__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/baseinterface_pkg/_baseinterface_pkg_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[7.388356] (baseinterface_pkg) StdoutLine: {'line': b'[ 84%] \x1b[32mBuilding C object CMakeFiles/baseinterface_pkg__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/baseinterface_pkg/_baseinterface_pkg_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[7.389150] (baseinterface_pkg) StdoutLine: {'line': b'[ 87%] \x1b[32mBuilding C object CMakeFiles/baseinterface_pkg__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/baseinterface_pkg/_baseinterface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[7.412137] (-) TimerEvent: {}
+[7.513013] (-) TimerEvent: {}
+[7.575593] (baseinterface_pkg) StdoutLine: {'line': b'[ 90%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.576155] (baseinterface_pkg) StdoutLine: {'line': b'[ 93%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.589909] (baseinterface_pkg) StdoutLine: {'line': b'[ 96%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[7.613495] (-) TimerEvent: {}
+[7.646877] (baseinterface_pkg) StdoutLine: {'line': b'[ 96%] Built target baseinterface_pkg__rosidl_typesupport_introspection_c__pyext\n'}
+[7.647204] (baseinterface_pkg) StdoutLine: {'line': b'[ 96%] Built target baseinterface_pkg__rosidl_typesupport_c__pyext\n'}
+[7.665811] (baseinterface_pkg) StdoutLine: {'line': b'[ 96%] Built target baseinterface_pkg__rosidl_typesupport_fastrtps_c__pyext\n'}
+[7.713981] (-) TimerEvent: {}
+[7.814638] (-) TimerEvent: {}
+[7.915831] (-) TimerEvent: {}
+[8.016461] (-) TimerEvent: {}
+[8.118529] (-) TimerEvent: {}
+[8.219390] (-) TimerEvent: {}
+[8.320287] (-) TimerEvent: {}
+[8.421391] (-) TimerEvent: {}
+[8.522214] (-) TimerEvent: {}
+[8.623300] (-) TimerEvent: {}
+[8.724247] (-) TimerEvent: {}
+[8.825320] (-) TimerEvent: {}
+[8.926796] (-) TimerEvent: {}
+[9.033569] (-) TimerEvent: {}
+[9.134949] (-) TimerEvent: {}
+[9.236730] (-) TimerEvent: {}
+[9.337932] (-) TimerEvent: {}
+[9.438889] (-) TimerEvent: {}
+[9.539414] (-) TimerEvent: {}
+[9.640564] (-) TimerEvent: {}
+[9.741345] (-) TimerEvent: {}
+[9.842927] (-) TimerEvent: {}
+[9.943919] (-) TimerEvent: {}
+[10.045195] (-) TimerEvent: {}
+[10.146139] (-) TimerEvent: {}
+[10.247081] (-) TimerEvent: {}
+[10.348374] (-) TimerEvent: {}
+[10.449228] (-) TimerEvent: {}
+[10.549973] (-) TimerEvent: {}
+[10.650797] (-) TimerEvent: {}
+[10.751501] (-) TimerEvent: {}
+[10.852336] (-) TimerEvent: {}
+[10.952961] (-) TimerEvent: {}
+[11.053628] (-) TimerEvent: {}
+[11.154790] (-) TimerEvent: {}
+[11.255824] (-) TimerEvent: {}
+[11.336292] (baseinterface_pkg) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable baseinterface_node\x1b[0m\n'}
+[11.356916] (-) TimerEvent: {}
+[11.457611] (-) TimerEvent: {}
+[11.558147] (-) TimerEvent: {}
+[11.627120] (baseinterface_pkg) StdoutLine: {'line': b'[100%] Built target baseinterface_node\n'}
+[11.649745] (baseinterface_pkg) CommandEnded: {'returncode': 0}
+[11.651096] (baseinterface_pkg) JobProgress: {'identifier': 'baseinterface_pkg', 'progress': 'install'}
+[11.658938] (-) TimerEvent: {}
+[11.668603] (baseinterface_pkg) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg'], 'cwd': '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'en_US:'), ('USER', 'ros'), ('SSH_CLIENT', '192.168.225.1 1673 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'tty'), ('GIT_ASKPASS', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass.sh'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('BROWSER', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/helpers/browser.sh'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros'), ('OLDPWD', '/home/ros/ROS2'), ('TERM_PROGRAM_VERSION', '1.100.2'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1000/vscode-ipc-bce425f1-2716-400d-8e7d-cfcbadccf60b.sock'), ('ROS_PYTHON_VERSION', '3'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/node'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('LOGNAME', 'ros'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('TERM', 'xterm-256color'), ('XDG_SESSION_ID', '3'), ('ROS_LOCALHOST_ONLY', '0'), ('PATH', '/home/ros/.vscode-server/cli/servers/Stable-848b80aeb52026648a8ff9f7c45a9b0a80641e2e/server/bin/remote-cli:/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('LANG', 'en_US.UTF-8'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-095b99fcf5.sock'), ('TERM_PROGRAM', 'vscode'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('PWD', '/home/ros/ROS2/usrmsg_ws/build/baseinterface_pkg'), ('SSH_CONNECTION', '192.168.225.1 1673 192.168.225.135 22'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[11.686189] (baseinterface_pkg) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.687370] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/ament_index/resource_index/rosidl_interfaces/baseinterface_pkg\n'}
+[11.687765] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg\n'}
+[11.688032] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg\n'}
+[11.688299] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail\n'}
+[11.688662] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__type_support.h\n'}
+[11.689145] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__functions.h\n'}
+[11.689490] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__functions.c\n'}
+[11.689694] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__struct.h\n'}
+[11.689999] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/usrmsg.h\n'}
+[11.690305] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/rosidl_generator_c__visibility_control.h\n'}
+[11.690874] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/environment/library_path.sh\n'}
+[11.691057] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/environment/library_path.dsv\n'}
+[11.691209] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_generator_c.so\n'}
+[11.691908] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_generator_c.so" to ""\n'}
+[11.692373] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg\n'}
+[11.692695] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg\n'}
+[11.692978] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail\n'}
+[11.693459] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__rosidl_typesupport_fastrtps_c.h\n'}
+[11.694033] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[11.694573] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_fastrtps_c.so\n'}
+[11.694916] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[11.695273] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg\n'}
+[11.695489] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg\n'}
+[11.695717] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail\n'}
+[11.695957] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__traits.hpp\n'}
+[11.696107] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__builder.hpp\n'}
+[11.696286] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__type_support.hpp\n'}
+[11.696636] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__struct.hpp\n'}
+[11.696798] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[11.697050] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/usrmsg.hpp\n'}
+[11.697312] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg\n'}
+[11.697776] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg\n'}
+[11.697974] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail\n'}
+[11.698214] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/dds_fastrtps\n'}
+[11.698556] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[11.699053] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[11.699233] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_fastrtps_cpp.so\n'}
+[11.699751] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[11.700223] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg\n'}
+[11.700418] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg\n'}
+[11.700598] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail\n'}
+[11.700860] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__type_support.c\n'}
+[11.701330] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__rosidl_typesupport_introspection_c.h\n'}
+[11.701503] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[11.701843] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_introspection_c.so\n'}
+[11.702865] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_introspection_c.so" to ""\n'}
+[11.703256] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_c.so\n'}
+[11.704122] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_c.so" to ""\n'}
+[11.704459] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg\n'}
+[11.704846] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg\n'}
+[11.705125] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail\n'}
+[11.705443] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__rosidl_typesupport_introspection_cpp.hpp\n'}
+[11.705857] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/include/baseinterface_pkg/baseinterface_pkg/msg/detail/usrmsg__type_support.cpp\n'}
+[11.705994] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_introspection_cpp.so\n'}
+[11.706740] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[11.707134] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_cpp.so\n'}
+[11.707887] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_typesupport_cpp.so" to ""\n'}
+[11.708192] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/environment/pythonpath.sh\n'}
+[11.708517] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/environment/pythonpath.dsv\n'}
+[11.709019] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg-0.0.1-py3.10.egg-info\n'}
+[11.709485] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg-0.0.1-py3.10.egg-info/PKG-INFO\n'}
+[11.709757] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg-0.0.1-py3.10.egg-info/top_level.txt\n'}
+[11.710169] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg-0.0.1-py3.10.egg-info/SOURCES.txt\n'}
+[11.710309] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg-0.0.1-py3.10.egg-info/dependency_links.txt\n'}
+[11.710574] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg\n'}
+[11.710735] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.711011] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/libbaseinterface_pkg__rosidl_generator_py.so\n'}
+[11.711483] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/msg\n'}
+[11.711645] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/msg/_usrmsg_s.c\n'}
+[11.711945] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/msg/_usrmsg.py\n'}
+[11.712516] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/msg/__init__.py\n'}
+[11.712908] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/_baseinterface_pkg_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[11.713315] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.713730] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/_baseinterface_pkg_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[11.714107] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/__init__.py\n'}
+[11.714464] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/_baseinterface_pkg_s.ep.rosidl_typesupport_c.c\n'}
+[11.714921] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.759593] (-) TimerEvent: {}
+[11.776559] (baseinterface_pkg) StdoutLine: {'line': b"Listing '/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg'...\n"}
+[11.776833] (baseinterface_pkg) StdoutLine: {'line': b"Compiling '/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/__init__.py'...\n"}
+[11.777614] (baseinterface_pkg) StdoutLine: {'line': b"Listing '/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/msg'...\n"}
+[11.777789] (baseinterface_pkg) StdoutLine: {'line': b"Compiling '/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/msg/__init__.py'...\n"}
+[11.777928] (baseinterface_pkg) StdoutLine: {'line': b"Compiling '/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/msg/_usrmsg.py'...\n"}
+[11.787903] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.788712] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.789496] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.790090] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.790315] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[11.790947] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/local/lib/python3.10/dist-packages/baseinterface_pkg/baseinterface_pkg_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[11.791557] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_generator_py.so\n'}
+[11.792156] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/libbaseinterface_pkg__rosidl_generator_py.so" to ""\n'}
+[11.792520] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/msg/Usrmsg.idl\n'}
+[11.792810] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/msg/Usrmsg.msg\n'}
+[11.793177] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/baseinterface_pkg/baseinterface_node\n'}
+[11.794233] (baseinterface_pkg) StdoutLine: {'line': b'-- Set runtime path of "/home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/lib/baseinterface_pkg/baseinterface_node" to ""\n'}
+[11.794651] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/ament_index/resource_index/package_run_dependencies/baseinterface_pkg\n'}
+[11.795014] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/ament_index/resource_index/parent_prefix_path/baseinterface_pkg\n'}
+[11.795366] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/environment/ament_prefix_path.sh\n'}
+[11.795525] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/environment/ament_prefix_path.dsv\n'}
+[11.795713] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/environment/path.sh\n'}
+[11.796114] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/environment/path.dsv\n'}
+[11.796600] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/local_setup.bash\n'}
+[11.797052] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/local_setup.sh\n'}
+[11.797241] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/local_setup.zsh\n'}
+[11.797472] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/local_setup.dsv\n'}
+[11.797935] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/package.dsv\n'}
+[11.798342] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/ament_index/resource_index/packages/baseinterface_pkg\n'}
+[11.798807] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/export_baseinterface_pkg__rosidl_generator_cExport.cmake\n'}
+[11.799227] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/export_baseinterface_pkg__rosidl_generator_cExport-noconfig.cmake\n'}
+[11.799717] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/export_baseinterface_pkg__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[11.800116] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/export_baseinterface_pkg__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[11.800523] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/export_baseinterface_pkg__rosidl_generator_cppExport.cmake\n'}
+[11.800959] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/export_baseinterface_pkg__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[11.801278] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/export_baseinterface_pkg__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[11.801780] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkg__rosidl_typesupport_introspection_cExport.cmake\n'}
+[11.802108] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkg__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[11.802706] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkg__rosidl_typesupport_cExport.cmake\n'}
+[11.803107] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkg__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[11.803629] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkg__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[11.804028] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkg__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[11.804500] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkg__rosidl_typesupport_cppExport.cmake\n'}
+[11.804954] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkg__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[11.805464] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/export_baseinterface_pkg__rosidl_generator_pyExport.cmake\n'}
+[11.805881] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/export_baseinterface_pkg__rosidl_generator_pyExport-noconfig.cmake\n'}
+[11.806323] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/rosidl_cmake-extras.cmake\n'}
+[11.806739] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[11.807219] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[11.807722] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[11.808355] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[11.808777] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[11.809223] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[11.809637] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkgConfig.cmake\n'}
+[11.809910] (baseinterface_pkg) StdoutLine: {'line': b'-- Installing: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/cmake/baseinterface_pkgConfig-version.cmake\n'}
+[11.810355] (baseinterface_pkg) StdoutLine: {'line': b'-- Up-to-date: /home/ros/ROS2/usrmsg_ws/install/baseinterface_pkg/share/baseinterface_pkg/package.xml\n'}
+[11.814625] (baseinterface_pkg) CommandEnded: {'returncode': 0}
+[11.860039] (baseinterface_pkg) JobEnded: {'identifier': 'baseinterface_pkg', 'rc': 0}
+[11.861258] (-) TimerEvent: {}
+[11.861508] (-) EventReactorShutdown: {}

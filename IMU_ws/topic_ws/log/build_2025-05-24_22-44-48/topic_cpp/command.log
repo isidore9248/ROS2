@@ -1,0 +1,6 @@
+Invoking command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/ROS2Folder/topic_ws/src/topic_cpp -DCMAKE_INSTALL_PREFIX=/home/ros2/ROS2Folder/topic_ws/install/topic_cpp
+Invoked command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/ros2/ROS2Folder/topic_ws/src/topic_cpp -DCMAKE_INSTALL_PREFIX=/home/ros2/ROS2Folder/topic_ws/install/topic_cpp
+Invoking command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ROS2Folder/topic_ws/build/topic_cpp -- -j16 -l16
+Invoked command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/ros2/ROS2Folder/topic_ws/build/topic_cpp -- -j16 -l16
+Invoking command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ROS2Folder/topic_ws/build/topic_cpp
+Invoked command in '/home/ros2/ROS2Folder/topic_ws/build/topic_cpp' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/ros2/ROS2Folder/topic_ws/build/topic_cpp

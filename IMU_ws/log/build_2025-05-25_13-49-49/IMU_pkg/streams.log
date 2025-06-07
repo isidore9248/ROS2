@@ -1,0 +1,24 @@
+[0.016s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[0.083s] [35m[1mConsolidate compiler generated dependencies of target IMU_node[0m
+[0.122s] [ 33%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[0.123s] [ 66%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o[0m
+[4.140s] In file included from [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:6[m[K:
+[4.140s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/../include/IMU_pkg/IMUSerialReader.h:25:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatic void IMUSerialReader::readSerialData()[m[K’ cannot be overloaded with ‘[01m[Kvoid IMUSerialReader::readSerialData()[m[K’
+[4.140s]    25 |     static void [01;31m[KreadSerialData[m[K()
+[4.140s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.141s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/../include/IMU_pkg/IMUSerialReader.h:21:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid IMUSerialReader::readSerialData()[m[K’
+[4.141s]    21 |     void [01;36m[KreadSerialData[m[K();
+[4.141s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.169s] In file included from [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:1[m[K:
+[4.169s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/../include/IMU_pkg/IMUSerialReader.h:25:17:[m[K [01;31m[Kerror: [m[K‘[01m[Kstatic void IMUSerialReader::readSerialData()[m[K’ cannot be overloaded with ‘[01m[Kvoid IMUSerialReader::readSerialData()[m[K’
+[4.169s]    25 |     static void [01;31m[KreadSerialData[m[K()
+[4.170s]       |                 [01;31m[K^~~~~~~~~~~~~~[m[K
+[4.170s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/../include/IMU_pkg/IMUSerialReader.h:21:10:[m[K [01;36m[Knote: [m[Kprevious declaration ‘[01m[Kvoid IMUSerialReader::readSerialData()[m[K’
+[4.170s]    21 |     void [01;36m[KreadSerialData[m[K();
+[4.170s]       |          [01;36m[K^~~~~~~~~~~~~~[m[K
+[4.768s] gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:76: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o] Error 1
+[4.768s] gmake[2]: *** Waiting for unfinished jobs....
+[5.241s] gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:90: CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o] Error 1
+[5.241s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+[5.242s] gmake: *** [Makefile:146: all] Error 2
+[5.245s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8

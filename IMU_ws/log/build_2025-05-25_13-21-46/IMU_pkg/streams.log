@@ -1,0 +1,19 @@
+[0.018s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[0.063s] [35m[1mConsolidate compiler generated dependencies of target IMU_node[0m
+[0.087s] [ 50%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o[0m
+[2.887s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[2.888s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:55:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+[2.888s]    55 |   int serial_fd = serial.open_serial([01;35m[K"/dev/ttyS0"[m[K);
+[2.888s]       |                                      [01;35m[K^~~~~~~~~~~~[m[K
+[4.840s] [100%] [32m[1mLinking CXX executable IMU_node[0m
+[5.087s] /usr/bin/ld: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o: in function `main':
+[5.087s] IMU_node.cpp:(.text+0xa3): undefined reference to `Serial::Serial()'
+[5.087s] /usr/bin/ld: IMU_node.cpp:(.text+0xbc): undefined reference to `Serial::open_serial(char*)'
+[5.087s] /usr/bin/ld: IMU_node.cpp:(.text+0x10f): undefined reference to `Serial::set_serial(int, int, int, char, int)'
+[5.087s] /usr/bin/ld: IMU_node.cpp:(.text+0x22f): undefined reference to `Serial::~Serial()'
+[5.087s] /usr/bin/ld: IMU_node.cpp:(.text+0x2e0): undefined reference to `Serial::~Serial()'
+[5.117s] collect2: error: ld returned 1 exit status
+[5.119s] gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:205: IMU_node] Error 1
+[5.119s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+[5.120s] gmake: *** [Makefile:146: all] Error 2
+[5.123s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8

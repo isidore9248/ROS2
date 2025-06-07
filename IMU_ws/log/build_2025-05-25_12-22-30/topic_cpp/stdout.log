@@ -1,0 +1,6 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/topicsubscribe.dir/src/topicsubscribe.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/topicpublish.dir/src/topicpublish.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable topicpublish[0m
+[ 75%] Built target topicpublish
+[100%] [32m[1mLinking CXX executable topicsubscribe[0m
+[100%] Built target topicsubscribe

@@ -1,0 +1,7 @@
+[01m[K/home/ros2/ROS2Folder/Event/trajectory_ws/src/trajectory_visualization/src/main.cpp:[m[K In member function ‘[01m[Kvoid TrajectoryVisualization::readDataFile()[m[K’:
+[01m[K/home/ros2/ROS2Folder/Event/trajectory_ws/src/trajectory_visualization/src/main.cpp:46:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   46 |         double [01;35m[Kx[m[K = 0.0, y = 0.0;  // 位置
+      |                [01;35m[K^[m[K
+[01m[K/home/ros2/ROS2Folder/Event/trajectory_ws/src/trajectory_visualization/src/main.cpp:46:25:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   46 |         double x = 0.0, [01;35m[Ky[m[K = 0.0;  // 位置
+      |                         [01;35m[K^[m[K

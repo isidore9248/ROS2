@@ -1,0 +1,14 @@
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMU_node.cpp:55:38:[m[K [01;35m[Kwarning: [m[KISO C++ forbids converting a string constant to ‘[01m[Kchar*[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wwrite-strings-Wwrite-strings]8;;[m[K]
+   55 |   int serial_fd = serial.open_serial([01;35m[K"/dev/ttyS0"[m[K);
+      |                                      [01;35m[K^~~~~~~~~~~~[m[K
+/usr/bin/ld: CMakeFiles/IMU_node.dir/src/IMU_node.cpp.o: in function `main':
+IMU_node.cpp:(.text+0xa3): undefined reference to `Serial::Serial()'
+/usr/bin/ld: IMU_node.cpp:(.text+0xbc): undefined reference to `Serial::open_serial(char*)'
+/usr/bin/ld: IMU_node.cpp:(.text+0x10f): undefined reference to `Serial::set_serial(int, int, int, char, int)'
+/usr/bin/ld: IMU_node.cpp:(.text+0x22f): undefined reference to `Serial::~Serial()'
+/usr/bin/ld: IMU_node.cpp:(.text+0x2e0): undefined reference to `Serial::~Serial()'
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:205: IMU_node] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,14 @@
+[0.017s] Invoking command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8
+[0.074s] [35m[1mConsolidate compiler generated dependencies of target IMU_node[0m
+[0.110s] [ 33%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o[0m
+[4.070s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:[m[K In destructor ‘[01m[Kvirtual IMUSerialReader::~IMUSerialReader()[m[K’:
+[4.070s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:53:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialDriver[m[K’ has no member named ‘[01m[Kis_open[m[K’
+[4.070s]    53 |     if (serial_driver_ && serial_driver_->[01;31m[Kis_open[m[K()) {  // 修改: 改回使用is_open()
+[4.070s]       |                                           [01;31m[K^~~~~~~[m[K
+[4.070s] [01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:54:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialDriver[m[K’ has no member named ‘[01m[Kclose[m[K’
+[4.070s]    54 |         serial_driver_->[01;31m[Kclose[m[K();  // 修改: 改回使用close()
+[4.071s]       |                         [01;31m[K^~~~~[m[K
+[5.098s] gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:90: CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o] Error 1
+[5.098s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+[5.098s] gmake: *** [Makefile:146: all] Error 2
+[5.101s] Invoked command in '/home/ros/ROS2/IMU_ws/build/IMU_pkg' returned '2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/ros/ROS2/IMU_ws/build/IMU_pkg -- -j8 -l8

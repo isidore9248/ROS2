@@ -1,0 +1,4 @@
+source;share/baseinterface_pkg/local_setup.bash
+source;share/baseinterface_pkg/local_setup.dsv
+source;share/baseinterface_pkg/local_setup.sh
+source;share/baseinterface_pkg/local_setup.zsh

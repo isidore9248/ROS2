@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target IMU_node[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o[0m
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:[m[K In constructor ‘[01m[KIMUSerialReader::IMUSerialReader()[m[K’:
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:29:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialDriver[m[K’ has no member named ‘[01m[Kopen[m[K’
+   29 |         serial_driver_->[01;31m[Kopen[m[K();
+      |                         [01;31m[K^~~~[m[K
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:[m[K In destructor ‘[01m[Kvirtual IMUSerialReader::~IMUSerialReader()[m[K’:
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:53:43:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialDriver[m[K’ has no member named ‘[01m[Kis_open[m[K’
+   53 |     if (serial_driver_ && serial_driver_->[01;31m[Kis_open[m[K()) {
+      |                                           [01;31m[K^~~~~~~[m[K
+[01m[K/home/ros/ROS2/IMU_ws/src/IMU_pkg/src/IMUSerialReader.cpp:54:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kclass drivers::serial_driver::SerialDriver[m[K’ has no member named ‘[01m[Kclose[m[K’
+   54 |         serial_driver_->[01;31m[Kclose[m[K();
+      |                         [01;31m[K^~~~~[m[K
+gmake[2]: *** [CMakeFiles/IMU_node.dir/build.make:90: CMakeFiles/IMU_node.dir/src/IMUSerialReader.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/IMU_node.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2
