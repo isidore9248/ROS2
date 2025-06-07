@@ -27,6 +27,21 @@
     ```bash
     wsl --set-default Ubuntu-22.04
     ```
+## WSL2 安装 XRDP 服务
+- 
+    ```bash
+    sudo apt update
+    sudo apt install -y xfce4 xrdp
+    sudo apt install lightdm
+    sudo dpkg-reconfigure lightdm
+    sudo vim /etc/xrdp/xrdp.ini #修改端口
+    vim ~/.xsession
+    # 写入下面内容(就一行)
+    xfce4-session
+    sudo /etc/init.d/xrdp start
+    ```
+
+
 ##  ROS2安装
 
 - 使用小鱼ROS一键安装

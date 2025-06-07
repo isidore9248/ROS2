@@ -1,0 +1,1 @@
+/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization/ament_cmake_environment_hooks/local_setup.bash

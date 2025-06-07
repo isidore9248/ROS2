@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization/trajectory_node" "TARGETS" "trajectory_node" "DESTINATION" "lib/trajectory_visualization")
