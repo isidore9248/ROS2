@@ -1,0 +1,25 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/trajectory_node.dir/src/main.cpp.o[0m
+[100%] [32m[1mLinking CXX executable trajectory_node[0m
+[100%] Built target trajectory_node
+-- Install configuration: ""
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/lib/trajectory_visualization/trajectory_node
+-- Set runtime path of "/home/ros2/ROS2Folder/Event/install/trajectory_visualization/lib/trajectory_visualization/trajectory_node" to ""
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/launch
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/launch/visualization.launch.py
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/rviz
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/rviz/trajectory.rviz
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/ament_index/resource_index/package_run_dependencies/trajectory_visualization
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/ament_index/resource_index/parent_prefix_path/trajectory_visualization
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.sh
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.dsv
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/environment/path.sh
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/environment/path.dsv
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/local_setup.bash
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/local_setup.sh
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/local_setup.zsh
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/local_setup.dsv
+-- Up-to-date: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/package.dsv
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/ament_index/resource_index/packages/trajectory_visualization
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig.cmake
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig-version.cmake
+-- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/package.xml

@@ -1,0 +1,29 @@
+[0.019s] Invoking command in '/home/ros2/ROS2Folder/Event/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/ros2/ROS2Folder/Event/build/trajectory_visualization -- -j8 -l8
+[0.092s] [ 50%] [32mBuilding CXX object CMakeFiles/trajectory_node.dir/src/main.cpp.o[0m
+[8.459s] [100%] [32m[1mLinking CXX executable trajectory_node[0m
+[9.108s] [100%] Built target trajectory_node
+[9.126s] Invoked command in '/home/ros2/ROS2Folder/Event/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/ros2/ROS2Folder/Event/build/trajectory_visualization -- -j8 -l8
+[9.141s] Invoking command in '/home/ros2/ROS2Folder/Event/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/ros2/ROS2Folder/Event/build/trajectory_visualization
+[9.153s] -- Install configuration: ""
+[9.154s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/lib/trajectory_visualization/trajectory_node
+[9.158s] -- Set runtime path of "/home/ros2/ROS2Folder/Event/install/trajectory_visualization/lib/trajectory_visualization/trajectory_node" to ""
+[9.158s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/launch
+[9.158s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/launch/visualization.launch.py
+[9.159s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/rviz
+[9.159s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/rviz/trajectory.rviz
+[9.159s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/ament_index/resource_index/package_run_dependencies/trajectory_visualization
+[9.160s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/ament_index/resource_index/parent_prefix_path/trajectory_visualization
+[9.161s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.sh
+[9.161s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.dsv
+[9.162s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/environment/path.sh
+[9.162s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/environment/path.dsv
+[9.162s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/local_setup.bash
+[9.163s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/local_setup.sh
+[9.163s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/local_setup.zsh
+[9.163s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/local_setup.dsv
+[9.164s] -- Up-to-date: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/package.dsv
+[9.164s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/ament_index/resource_index/packages/trajectory_visualization
+[9.164s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig.cmake
+[9.165s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig-version.cmake
+[9.165s] -- Installing: /home/ros2/ROS2Folder/Event/install/trajectory_visualization/share/trajectory_visualization/package.xml
+[9.169s] Invoked command in '/home/ros2/ROS2Folder/Event/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/ros2/ROS2Folder/Event/build/trajectory_visualization
