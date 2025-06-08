@@ -1,0 +1,60 @@
+[0.021s] Invoking command in '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/ros2/ROS2Folder/Event/trajectory_ws/src/trajectory_visualization -DCMAKE_INSTALL_PREFIX=/home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization
+[0.042s] -- Found ament_cmake: 1.3.11 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.243s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.257s] -- Found rclcpp: 16.0.12 (/opt/ros/humble/share/rclcpp/cmake)
+[0.312s] -- Found rosidl_generator_c: 3.1.6 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.317s] -- Found rosidl_adapter: 3.1.6 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.329s] -- Found rosidl_generator_cpp: 3.1.6 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.347s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.368s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.426s] -- Found rmw_implementation_cmake: 6.1.2 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.429s] -- Found rmw_fastrtps_cpp: 6.2.7 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.598s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.699s] -- Found geometry_msgs: 4.8.0 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.727s] -- Found visualization_msgs: 4.8.0 (/opt/ros/humble/share/visualization_msgs/cmake)
+[0.813s] -- Found nav_msgs: 4.8.0 (/opt/ros/humble/share/nav_msgs/cmake)
+[0.850s] -- Found tf2: 0.25.12 (/opt/ros/humble/share/tf2/cmake)
+[0.857s] -- Found tf2_ros: 0.25.12 (/opt/ros/humble/share/tf2_ros/cmake)
+[1.026s] -- Found ament_lint_auto: 0.12.12 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.152s] -- Added test 'copyright' to check source files copyright and LICENSE
+[1.154s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[1.154s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/ros2/ROS2Folder/Event/trajectory_ws/src/trajectory_visualization/include>
+[1.154s] -- Configured cppcheck exclude dirs and/or files: 
+[1.157s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[1.157s] -- Configured cpplint exclude dirs and/or files: 
+[1.157s] -- Added test 'flake8' to check Python code syntax and style conventions
+[1.158s] -- Added test 'lint_cmake' to check CMake code style
+[1.158s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[1.160s] -- Added test 'uncrustify' to check C / C++ code style
+[1.160s] -- Configured uncrustify additional arguments: 
+[1.161s] -- Added test 'xmllint' to check XML markup files
+[1.163s] -- Configuring done
+[1.193s] -- Generating done
+[1.204s] -- Build files have been written to: /home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization
+[1.226s] Invoked command in '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake /home/ros2/ROS2Folder/Event/trajectory_ws/src/trajectory_visualization -DCMAKE_INSTALL_PREFIX=/home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization
+[1.231s] Invoking command in '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization -- -j8 -l8
+[1.293s] [35m[1mConsolidate compiler generated dependencies of target trajectory_node[0m
+[1.323s] [100%] Built target trajectory_node
+[1.341s] Invoked command in '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --build /home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization -- -j8 -l8
+[1.358s] Invoking command in '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization
+[1.369s] -- Install configuration: ""
+[1.369s] -- Execute custom install script
+[1.370s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/lib/trajectory_visualization/trajectory_node
+[1.371s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/launch/visualization.launch.py
+[1.371s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/rviz/trajectory.rviz
+[1.372s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/ament_index/resource_index/package_run_dependencies/trajectory_visualization
+[1.372s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/ament_index/resource_index/parent_prefix_path/trajectory_visualization
+[1.373s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.sh
+[1.373s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.dsv
+[1.373s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.sh
+[1.374s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.dsv
+[1.374s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.bash
+[1.374s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.sh
+[1.375s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.zsh
+[1.375s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.dsv
+[1.375s] -- Symlinking: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/package.dsv
+[1.390s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/ament_index/resource_index/packages/trajectory_visualization
+[1.391s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig.cmake
+[1.391s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig-version.cmake
+[1.391s] -- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/package.xml
+[1.395s] Invoked command in '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble _=/usr/bin/env /usr/bin/cmake --install /home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization

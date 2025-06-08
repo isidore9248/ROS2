@@ -21,6 +21,22 @@ def generate_launch_description():
             executable='rviz2',
             name='rviz2',
             arguments=['-d', rviz_config],
-            output='screen'
+            output='screen',
+            parameters=[{
+                'Grid': {
+                    'Plane': 'XY',
+                    'Cell Size': 1.0,
+                    'Color': [0.5, 0.5, 0.5],
+                    'Style': 'Lines',
+                    'Alpha': 0.5,
+                    'Enabled': True
+                },
+                'Axes': {
+                    'Length': 1.0,
+                    'Radius': 0.1,
+                    'Alpha': 0.8,
+                    'Enabled': True
+                }
+            }]
         )
     ])

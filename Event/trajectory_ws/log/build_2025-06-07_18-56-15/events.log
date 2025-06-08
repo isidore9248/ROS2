@@ -1,0 +1,124 @@
+[0.000000] (-) TimerEvent: {}
+[0.000750] (trajectory_visualization) JobQueued: {'identifier': 'trajectory_visualization', 'dependencies': OrderedDict()}
+[0.000809] (trajectory_visualization) JobStarted: {'identifier': 'trajectory_visualization'}
+[0.015951] (trajectory_visualization) JobProgress: {'identifier': 'trajectory_visualization', 'progress': 'cmake'}
+[0.016545] (trajectory_visualization) JobProgress: {'identifier': 'trajectory_visualization', 'progress': 'build'}
+[0.018225] (trajectory_visualization) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization', '--', '-j8', '-l8'], 'cwd': '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('COLORTERM', 'truecolor'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('ROS_PYTHON_VERSION', '3'), ('LANGUAGE', 'en_US:'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('PWD', '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization'), ('LOGNAME', 'ros2'), ('XDG_SESSION_TYPE', 'tty'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh'), ('SSH_CONNECTION', '192.168.225.1 9286 192.168.225.135 22'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-96ccaa9c26.sock'), ('SHLVL', '2'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('XDG_SESSION_ID', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', '192.168.225.1 9286 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OLDPWD', '/home/ros2/ROS2Folder/Event/trajectory_ws'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1001/vscode-ipc-bbf39c6d-03d1-4780-adca-c734b2ffc909.sock'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.099403] (-) TimerEvent: {}
+[0.108268] (trajectory_visualization) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target trajectory_node\x1b[0m\n'}
+[0.142724] (trajectory_visualization) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/trajectory_node.dir/src/main.cpp.o\x1b[0m\n'}
+[0.199589] (-) TimerEvent: {}
+[0.301436] (-) TimerEvent: {}
+[0.402379] (-) TimerEvent: {}
+[0.502970] (-) TimerEvent: {}
+[0.604013] (-) TimerEvent: {}
+[0.705482] (-) TimerEvent: {}
+[0.806127] (-) TimerEvent: {}
+[0.906794] (-) TimerEvent: {}
+[1.007574] (-) TimerEvent: {}
+[1.108393] (-) TimerEvent: {}
+[1.208899] (-) TimerEvent: {}
+[1.309515] (-) TimerEvent: {}
+[1.410107] (-) TimerEvent: {}
+[1.511126] (-) TimerEvent: {}
+[1.612464] (-) TimerEvent: {}
+[1.712955] (-) TimerEvent: {}
+[1.813683] (-) TimerEvent: {}
+[1.914423] (-) TimerEvent: {}
+[2.015030] (-) TimerEvent: {}
+[2.115999] (-) TimerEvent: {}
+[2.216877] (-) TimerEvent: {}
+[2.317510] (-) TimerEvent: {}
+[2.418174] (-) TimerEvent: {}
+[2.518745] (-) TimerEvent: {}
+[2.619710] (-) TimerEvent: {}
+[2.720845] (-) TimerEvent: {}
+[2.821952] (-) TimerEvent: {}
+[2.923008] (-) TimerEvent: {}
+[3.023778] (-) TimerEvent: {}
+[3.124528] (-) TimerEvent: {}
+[3.224988] (-) TimerEvent: {}
+[3.325507] (-) TimerEvent: {}
+[3.426773] (-) TimerEvent: {}
+[3.528618] (-) TimerEvent: {}
+[3.629528] (-) TimerEvent: {}
+[3.730456] (-) TimerEvent: {}
+[3.831297] (-) TimerEvent: {}
+[3.931890] (-) TimerEvent: {}
+[3.983005] (trajectory_visualization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ROS2Folder/Event/trajectory_ws/src/trajectory_visualization/src/main.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid TrajectoryVisualization::readDataFile()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[3.983376] (trajectory_visualization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ROS2Folder/Event/trajectory_ws/src/trajectory_visualization/src/main.cpp:46:16:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Kx\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.983594] (trajectory_visualization) StderrLine: {'line': b'   46 |         double \x1b[01;35m\x1b[Kx\x1b[m\x1b[K = 0.0, y = 0.0;  // \xe4\xbd\x8d\xe7\xbd\xae\n'}
+[3.983739] (trajectory_visualization) StderrLine: {'line': b'      |                \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[3.983870] (trajectory_visualization) StderrLine: {'line': b'\x1b[01m\x1b[K/home/ros2/ROS2Folder/Event/trajectory_ws/src/trajectory_visualization/src/main.cpp:46:25:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused variable \xe2\x80\x98\x1b[01m\x1b[Ky\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable\x07-Wunused-variable\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[3.984006] (trajectory_visualization) StderrLine: {'line': b'   46 |         double x = 0.0, \x1b[01;35m\x1b[Ky\x1b[m\x1b[K = 0.0;  // \xe4\xbd\x8d\xe7\xbd\xae\n'}
+[3.984160] (trajectory_visualization) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K^\x1b[m\x1b[K\n'}
+[4.032228] (-) TimerEvent: {}
+[4.133095] (-) TimerEvent: {}
+[4.233679] (-) TimerEvent: {}
+[4.334396] (-) TimerEvent: {}
+[4.435162] (-) TimerEvent: {}
+[4.537203] (-) TimerEvent: {}
+[4.638309] (-) TimerEvent: {}
+[4.739493] (-) TimerEvent: {}
+[4.839998] (-) TimerEvent: {}
+[4.940635] (-) TimerEvent: {}
+[5.041352] (-) TimerEvent: {}
+[5.141974] (-) TimerEvent: {}
+[5.242779] (-) TimerEvent: {}
+[5.343761] (-) TimerEvent: {}
+[5.445181] (-) TimerEvent: {}
+[5.546161] (-) TimerEvent: {}
+[5.646615] (-) TimerEvent: {}
+[5.747116] (-) TimerEvent: {}
+[5.847732] (-) TimerEvent: {}
+[5.948662] (-) TimerEvent: {}
+[6.049382] (-) TimerEvent: {}
+[6.150214] (-) TimerEvent: {}
+[6.250837] (-) TimerEvent: {}
+[6.351525] (-) TimerEvent: {}
+[6.452552] (-) TimerEvent: {}
+[6.553395] (-) TimerEvent: {}
+[6.653976] (-) TimerEvent: {}
+[6.754789] (-) TimerEvent: {}
+[6.855715] (-) TimerEvent: {}
+[6.956204] (-) TimerEvent: {}
+[7.056890] (-) TimerEvent: {}
+[7.157639] (-) TimerEvent: {}
+[7.258706] (-) TimerEvent: {}
+[7.359826] (-) TimerEvent: {}
+[7.460257] (trajectory_visualization) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable trajectory_node\x1b[0m\n'}
+[7.460640] (-) TimerEvent: {}
+[7.561381] (-) TimerEvent: {}
+[7.662679] (-) TimerEvent: {}
+[7.763357] (-) TimerEvent: {}
+[7.864379] (-) TimerEvent: {}
+[7.965144] (-) TimerEvent: {}
+[8.065723] (-) TimerEvent: {}
+[8.096400] (trajectory_visualization) StdoutLine: {'line': b'[100%] Built target trajectory_node\n'}
+[8.113782] (trajectory_visualization) CommandEnded: {'returncode': 0}
+[8.114906] (trajectory_visualization) JobProgress: {'identifier': 'trajectory_visualization', 'progress': 'install'}
+[8.127329] (trajectory_visualization) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization'], 'cwd': '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization', 'env': OrderedDict([('SHELL', '/bin/bash'), ('ROS_VERSION', '2'), ('COLORTERM', 'truecolor'), ('TERM_PROGRAM_VERSION', '1.100.3'), ('ROS_PYTHON_VERSION', '3'), ('LANGUAGE', 'en_US:'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('LC_NAME', 'zh_CN.UTF-8'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('PWD', '/home/ros2/ROS2Folder/Event/trajectory_ws/build/trajectory_visualization'), ('LOGNAME', 'ros2'), ('XDG_SESSION_TYPE', 'tty'), ('VSCODE_GIT_ASKPASS_NODE', '/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/node'), ('MOTD_SHOWN', 'pam'), ('HOME', '/home/ros2'), ('LC_PAPER', 'zh_CN.UTF-8'), ('LANG', 'en_US.UTF-8'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSL_CERT_DIR', '/usr/lib/ssl/certs'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('GIT_ASKPASS', '/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass.sh'), ('SSH_CONNECTION', '192.168.225.1 9286 192.168.225.135 22'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('XDG_SESSION_CLASS', 'user'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('COLCON', '1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('TERM', 'xterm-256color'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'ros2'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1001/vscode-git-96ccaa9c26.sock'), ('SHLVL', '2'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('XDG_SESSION_ID', '4'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('XDG_RUNTIME_DIR', '/run/user/1001'), ('SSL_CERT_FILE', '/usr/lib/ssl/certs/ca-certificates.crt'), ('ROS_LOCALHOST_ONLY', '0'), ('SSH_CLIENT', '192.168.225.1 9286 22'), ('LC_TIME', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_MAIN', '/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/extensions/git/dist/askpass-main.js'), ('XDG_DATA_DIRS', '/usr/share/gnome:/usr/local/share:/usr/share:/var/lib/snapd/desktop'), ('BROWSER', '/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/helpers/browser.sh'), ('PATH', '/opt/ros/humble/bin:/home/ros2/.vscode-server/cli/servers/Stable-258e40fedc6cb8edf399a463ce3a9d32e7e1f6f3/server/bin/remote-cli:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/home/ros2/.vscode-server/data/User/globalStorage/github.copilot-chat/debugCommand'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1001/bus'), ('ROS_DISTRO', 'humble'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('OLDPWD', '/home/ros2/ROS2Folder/Event/trajectory_ws'), ('TERM_PROGRAM', 'vscode'), ('VSCODE_IPC_HOOK_CLI', '/run/user/1001/vscode-ipc-bbf39c6d-03d1-4780-adca-c734b2ffc909.sock'), ('_', '/usr/bin/env'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[8.141114] (trajectory_visualization) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[8.141866] (trajectory_visualization) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[8.143068] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/lib/trajectory_visualization/trajectory_node\n'}
+[8.143706] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/launch/visualization.launch.py\n'}
+[8.144261] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/rviz/trajectory.rviz\n'}
+[8.144692] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/ament_index/resource_index/package_run_dependencies/trajectory_visualization\n'}
+[8.145047] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/ament_index/resource_index/parent_prefix_path/trajectory_visualization\n'}
+[8.145387] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.sh\n'}
+[8.145733] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/environment/ament_prefix_path.dsv\n'}
+[8.146060] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.sh\n'}
+[8.146452] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/environment/path.dsv\n'}
+[8.146754] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.bash\n'}
+[8.147065] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.sh\n'}
+[8.147417] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.zsh\n'}
+[8.147716] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/local_setup.dsv\n'}
+[8.147940] (trajectory_visualization) StdoutLine: {'line': b'-- Symlinking: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/package.dsv\n'}
+[8.161013] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/ament_index/resource_index/packages/trajectory_visualization\n'}
+[8.161429] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig.cmake\n'}
+[8.161843] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/cmake/trajectory_visualizationConfig-version.cmake\n'}
+[8.161976] (trajectory_visualization) StdoutLine: {'line': b'-- Up-to-date symlink: /home/ros2/ROS2Folder/Event/trajectory_ws/install/trajectory_visualization/share/trajectory_visualization/package.xml\n'}
+[8.166139] (trajectory_visualization) CommandEnded: {'returncode': 0}
+[8.166861] (-) TimerEvent: {}
+[8.195515] (trajectory_visualization) JobEnded: {'identifier': 'trajectory_visualization', 'rc': 0}
+[8.197621] (-) EventReactorShutdown: {}
